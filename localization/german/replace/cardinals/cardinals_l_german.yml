@@ -1,4 +1,10 @@
 ﻿l_german:
+
+ TCT_archbishoprics: "Erzbistümer"
+ TCT_archbishop_territory: "Territorium des Erzbistums" #fraglich
+ pentarchy_LEGEND: "Die Pentarchie"
+ CUSTOM_pentarchy_INVESTITURE: "Investitur der Pentarchie"
+
  cardinals_pope: "Pontifex Maximus"
  cardinals_preferatus: "Der [papabile]"
  cardinals_cardinal: "Kardinal [Character.GetFirstName]"
@@ -6,6 +12,9 @@
  cardinals_cardinal4: "Kardinalpriester"
  cardinals_cardinal2: "[Character.GetPrimaryTitle.GetName]"
  cardinals_college: "[collegeofcardinals]"
+ COLLEGE_OF_CARDINALS: "Kardinalskollegium"
+ the_holy_church: "Die Heilige Kirche" #fraglich, oder der Heilige Stuhl?
+ HOLY_CHURCH: "Die Heilige Kirche"
  cardinals_candidacy: "Kardinalskandidatur"
  cardinals_predictus: "[praedictus]"
  cardinals_my_candidate: "Mein Kandidat"
@@ -29,8 +38,8 @@
  cardinal_virtue_bonus: "[virtues|E] ([TopScope.ScriptValue('cardinal_virtue_count')|+0])"
  cardinal_sin_penalty: "[sins|E] ([TopScope.ScriptValue('cardinal_sin_count')|-0])"
  cardinal_popinion_bonus: "Meinung des Papstes"
- cardinal_money_bonus: "[gold_i]Wahlkampffinanzierung ([Character.MakeScope.Var('cardinal_campaign_contribution').GetValue|0V])"
+ cardinal_money_bonus: "[gold_i]Fördermittel ([Character.MakeScope.Var('cardinal_campaign_contribution').GetValue|0V])"
  cardinal_secular_power_bonus: "Weltliche Macht"
- cardinal_theocratic_power_bonus: "Theokratische Macht"
+ cardinal_theocratic_power_bonus: "Geistliche Macht"
  cardinal_too_old: "Kardinalsalter"
  cardinal_event_bonus: "Jüngste Ereignisse"

@@ -45,6 +45,7 @@
  duke_theocracy_male_christianity_religion:0 "Fürsterzbischof"
  duke_theocracy_female_christianity_religion:0 "Fürsterzbischöfin"
  duchy_theocracy_christianity_religion:0 "Fürsterzbistum"
+ tct_duchy_theocracy_christianity_religion:0 "Fürsterzbistum"
  king_theocracy_male_christianity_religion:0 "Priesterkönig"
  king_theocracy_female_christianity_religion:0 "Priesterkönigin"
  kingdom_theocracy_christianity_religion:0 "Gesalbtes Königreich"
@@ -58,3 +59,4 @@
  papacy_papal_majordomo:0 "Päpstlicher Majordomo"
  papacy_papal_camerlengo:0 "Camerlengo"
  papacy_grand_inquisitor:0 "Großinquisiteur"
+ head_of_faith_antipope:0 "Papst"
