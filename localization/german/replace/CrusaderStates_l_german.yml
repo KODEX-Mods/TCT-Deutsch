@@ -1,0 +1,88 @@
+﻿l_german:
+ create_crusader_state_decision:0 "[CrusaderStates|E] errichten"
+
+#varitations
+ create_dynamic_crusader_state_decision_holy_land_confirm:0 "Willkommen im Heiligen Land..."
+ create_dynamic_crusader_state_decision_iberia_confirm:0 "Willkommen in Iberien..."
+ create_dynamic_crusader_state_decision_near_east_confirm:0 "Willkommen im Nahen Osten..."
+ create_dynamic_crusader_state_decision_mediterranean_confirm:0 "Willkommen im Mittelmeerraum..."
+ create_dynamic_crusader_state_decision_egypt_confirmc:0 "Willkommen in Ägypten..."
+ create_dynamic_crusader_state_decision_confirm:0 "Willkommen in den Heiligen Ländern..."
+
+#Variations
+ create_dynamic_crusader_state_decision_holy_land_desc:0 "Wir haben ein ganzes Herzogtum im Heiligen Land besetzt.\nWenn wir wollen, können wir einige unserer Männer dort ansiedeln, die Kontrolle über das Herzogtum übernehmen und einen [CrusaderStates|E] gründen."
+ create_dynamic_crusader_state_decision_iberia_desc:0 "Wir haben ein ganzes Herzogtum in den zurückeroberten Ländern Iberiens besetzt.\nWenn wir wollen, können wir einige unserer Männer dort ansiedeln, die Kontrolle über das Herzogtum übernehmen und einen [CrusaderStates|E] gründen."
+ create_dynamic_crusader_state_decision_near_east_desc:0 "Wir haben ein ganzes Herzogtum im Nahen Osten besetzt.\nWenn wir wollen, können wir einige unserer Männer dort ansiedeln, die Kontrolle über das Herzogtum übernehmen und einen [CrusaderStates|E] gründen."
+ create_dynamic_crusader_state_decision_mediterranean_desc:0 "Wir haben ein ganzes Herzogtum im Mittelmeerraum besetzt.\nWenn wir wollen, können wir einige unserer Männer dort ansiedeln, die Kontrolle über das Herzogtum übernehmen und einen [CrusaderStates|E] gründen."
+ create_dynamic_crusader_state_decision_egypt_desc:0 "Wir haben ein ganzes Herzogtum in den ägyptischen Ländern besetzt.\nWenn wir wollen, können wir einige unserer Männer dort ansiedeln, die Kontrolle über das Herzogtum übernehmen und einen [CrusaderStates|E] gründen."
+ create_dynamic_crusader_state_decision_desc:0 "Wir haben ein ganzes Herzogtum in den Heiligen Ländern besetzt.\nWenn wir wollen, können wir einige unserer Männer dort ansiedeln, die Kontrolle über das Herzogtum übernehmen und einen [CrusaderStates|E] gründen."
+
+
+ create_dynamic_crusader_state_decision_tooltip:9 "Ein [CrusaderStates|E] wird errichtet!"
+ create_dynamic_crusader_state_decision_effect_tooltip:0 "Ihr versammelt Eure Männer, um über die Zukunft dieses Gebiets zu entscheiden. Ein [CrusaderStates|E] könnte im Namen Eures Begünstigten gegründet werden, oder in Eurem eigenen Namen, wobei Ihr Eure alten Länder aufgebt, um hierher zu ziehen, oder indem Ihr die Länder direkt in Euer Reich eingliedert!"
+ create_dynamic_crusader_state:0 "Während eines Kreuzzugs müsst Ihr ein ganzes [duchy|E] in den Ländern des Hauptverteidigers eines [great_holy_wars|E] [occupied|E] haben, das nicht zum Zielkönigreich gehört."
+
+ adbicate_crusader_state:0 "#S Ihr lasst Euer altes Leben hinter Euch und übergebt Eure alten Besitztümer gemäß dem Feudalerbrecht an Eure Erben.\n\nIhr widmet Euch nun dem Glauben, indem Ihr diese neuen Gebiete des [duchyforloc.GetNameNoTooltip] im Heiligen Land verteidigt."
+
+ benefiticary_crusader_state:0 "#S Ihr schickt Eure Männer, um die Marken des [duchyforloc.GetNameNoTooltip] zu sichern, und beginnt mit den Vorbereitungen für die Thronbesteigung von [beneficiary.GetFullName] im großen neuen [duchyforloc.GetName].\n"
+
+ self_serving_crusader_state:0 "#S Ihr gliedert das Land direkt in [primary_title.GetNameNoTier] ein. Dies wird von den vereinten Kreuzfahrerstreitkräften als eigennützig angesehen, da Ihr die vereidigten Kreuzfahrer für Eure eigenen Ziele einsetzt. Als Folge könntet Ihr schwere diplomatische Konsequenzen in Form stark beschädigter Beziehungen zu den übrigen Kreuzfahrern und dem Papst selbst erleiden.\n"
+
+ leaving_crusader_state:0 "#S Ihr überdenkt die Gründung des möglichen Staates und entscheidet Euch, diese Länder so zu belassen, wie sie sind, und Euch stattdessen dem Kriegsziel zuzuwenden."
+
+ game_concept_CrusaderState: "Kreuzfahrerstaat"
+ game_concept_CrusaderStates: "Kreuzfahrerstaat"
+ game_concept_CrusaderState_desc: "Ein Kreuzfahrerstaat ist ein feudales Reich auf [Concept.('duchy', 'Herzogtums')|E]-Ebene, das aus einem Herzogtum des Verteidigers eines [Concept.('holy_war', 'Heiligen Krieges')|E] geschaffen wurde, welches nicht das Hauptziel des Kreuzzugs ist."
+
+ CrusaderState: "Kreuzfahrerstaat"
+ CrusaderState: "Kreuzfahrerstaat"
+ CrusaderState_desc: "Ein Kreuzfahrerstaat ist ein feudales Reich auf [Concept.('duchy', 'Herzogtums')|E]-Ebene, das aus einem Herzogtum des Verteidigers eines [Concept.('holy_war', 'Heiligen Krieges')|E] geschaffen wurde, welches nicht das Hauptziel des Kreuzzugs ist"
+
+ has_taken_crusader_state:0 "Kreuzfahrerstaat-Entscheidung"
+ #events
+  CrusaderStateEvents.1.t: "Ein Staat in Outremer"
+  CrusaderStateEvents.1.desc: "Meine Männer stürmen die Mauern von [countyforloc.GetNameNoTierNoTooltip] und nehmen endlich die letzte richtige Bastion des [duchyforloc.GetNameNoTooltip] ein. Wenn ich meine Männer in der Gegend ansiedle, könnten sie wahrscheinlich den laufenden Kreuzzug um [target_kingdom.GetName] unterstützen und uns zum Sieg verhelfen, aber der Papst wird nicht erfreut sein, wenn ich diese Länder unrechtmäßig für mich selbst nehme."
+  CrusaderStateEvents.1.a: "Ich werde einen geeigneten Herrscher für dieses neue Land finden!"
+  CrusaderStateEvents.1.b: "Das [duchyforloc.GetNameNoTooltip] wäre ein passender Teil von [primary_title.GetNameNoTier]."
+  CrusaderStateEvents.1.c: "Ich werde [primary_title.GetNameNoTier] zurücklassen, um mich persönlich im [duchyforloc.GetNameNoTooltip] niederzulassen."
+  CrusaderStateEvents.1.d: "Diese Länder interessieren mich nicht."
+  CrusaderStateEvents.2.t: "Ein Staat in Outremer"
+  CrusaderStateEvents.2.desc.intro: "Während der Krieg um [target_kingdom.GetName] tobt, reitet ein Bote heran, der das Wappen von [war_attacker.GetTitledFirstName] von [primary_title.GetNameNoTier] trägt. Er hält vor Euch an, um den Kreuzfahrerstreitkräften eine Nachricht von den Armeen von [primary_title.GetNameNoTierNoTooltip] zu überbringen.\n\nEr verkündet:"
+
+  CrusaderStateEvents.2.desc.1: "Mit der Eroberung von [countyforloc.GetNameNoTierNoTooltip] und dem Rest des [duchyforloc.GetNameNoTooltip] hat [war_attacker.GetTitledFirstName] von [primary_title.GetNameNoTier] die Grundlagen für einen neuen [CrusaderStates|E] von [duchyforloc.GetNameNoTooltip] geschaffen und übergibt die Herrschaft an [beneficiary.GetFullName], der diese Länder von diesem Moment an beschützen wird."
+
+  # “\"With the capture of [countyforloc.GetNameNoTierNoTooltip], and the rest of the [duchyforloc.GetNameNoTooltip], [war_attacker.GetTitledFirstName] of [war_attacker.GetPrimaryTitle.GetNameNoTierNoTooltip] has formed the foundations of a new Crusader State of [duchyforloc.GetNameNoTooltipNoTierNoTooltip], placing its hands to his Beneficiary [beneficiary.GetFullName], who will protect these lands from this moment fourth.\""
+
+  CrusaderStateEvents.2.desc.2: "Mit der Eroberung von [countyforloc.GetNameNoTierNoTooltip] und dem Rest des [duchyforloc.GetName] hat [war_attacker.GetTitledFirstName] von [war_attacker.GetPrimaryTitle.GetName] die Gebiete eingenommen und beabsichtigt, sie als Teil eines größeren [war_attacker.GetPrimaryTitle.GetNameNoTier] zu behalten.\"\n\nObwohl die Männer um Euch herum erleichtert seufzen, dass eine so strategische Position eingenommen wurde, sind viele sichtlich bestürzt über diese Aktion, denn sie behaupten, [war_attacker.GetTitledFirstName] habe den Kreuzzug und das Leben vieler, die dem Kreuz gefolgt sind, hauptsächlich zum Nutzen seiner selbst und seines Reiches verwendet."
+
+  CrusaderStateEvents.2.desc.3: "Mit der Eroberung von [countyforloc.GetNameNoTierNoTooltip] und dem Rest des [duchyforloc.GetName] hat [war_attacker.GetTitledFirstName] von [primary_title.GetNameNoTierNoTooltip] all seine kontinentalen [primary_title.GetAdjective]en Länder an seine Erben abgetreten und persönlich die Gründung eines [CrusaderStates|E] in den Ländern von [duchyforloc.GetNameNoTooltip] in die Wege geleitet, wo er von diesem Tag an die Länder des [duchyforloc.GetName] verteidigen wird.\""
+
+  CrusaderStateEvents.2.a: "In Ordnung"
+
+  CrusaderStateEvents.5.t: "Ein Staat in Outremer"
+  CrusaderStateEvents.5.desc: "Es sind einige Tage vergangen seit der Gründung des Kreuzfahrerstaats [duchyforloc.GetNameNoTier] durch Eure tapferen Truppen und der Einsetzung Eures Begünstigten [beneficiary.GetFullName] als hiesiger Herrscher, und Ihr beginnt häufig nachzudenken..."
+  CrusaderStateEvents.5.a: "Vielleicht hätte ich es sein können, in einem anderen Leben?"
+  CrusaderStateEvents.5.b: "[war_attacker.GetPrimaryTitle.GetName] war schon immer meine Heimat, ich wünsche [beneficiary.GetFullName] die beste Zukunft."
+
+  #Modifiers
+  opinion_selfish_crusader: "Eigennütziger Kreuzfahrer"
+  settledcrusaders: "Angesiedelte Kreuzfahrer"
+  settledcrusaders_desc: "#I Eine bedeutende Streitmacht der Kreuzfahrer hat sich hier niedergelassen, um diesen neuen Staat zu schmieden"
+  settledcrusadersgood: "Angesiedelte Kreuzfahrer"
+  settledcrusadersgood_desc: "#I Eine bedeutende Streitmacht der Kreuzfahrer hat sich hier niedergelassen, um diesen neuen Staat zu schmieden"
+
+  #armies
+  CrusaderKnights: "Kreuzritter"
+
+  #CB's
+  CB_CRUSADER_STATE_COST: "Kreuzfahrerstaat"
+
+  debug_crusade_event:0 "[County.GetName] belagert"
+
+  #Traits
+  trait_crusader_state:0 "Kreuzfahrerführer"
+  trait_crusader_state_male_desc:0 "Ein großer Kreuzfahrer, der seinen eigenen [CrusaderStates|E] aus den Ländern der Ungläubigen geformt  hat."
+  trait_crusader_state_female:0 "Kreuzfahrerführerin"
+  trait_crusader_state_female_desc:0 "Eine große Kreuzfahrerin, die ihren eigenen [CrusaderStates|E] aus den Ländern der Ungläubigen geformt  hat."
+  trait_crusader_state_fallback_desc:0 "Ein großer Kreuzfahrer, der einen [CrusaderStates|E] aus den Ländern der Ungläubigen geformt  hat."
+  trait_crusader_state_fallback_dead:0 "Heiliger Kreuzfahrerführer"
