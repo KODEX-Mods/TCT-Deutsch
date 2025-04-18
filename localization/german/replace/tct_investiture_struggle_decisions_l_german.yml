@@ -1,0 +1,417 @@
+﻿l_german:
+
+ # Struggle Region
+ custom_investiture_struggle:0 "Investiturstreit im Heiligen Römischen Reich"
+
+ CB_STRUGGLE_PHASE_ATTACKING_SAME_FACTION_MEMBER: "Verbündete [struggle_faction_members|E]"
+
+ tct_papal_supporter:0 "Päpstlicher Unterstützer"
+ tct_imperial_supporter:0 "Kaiserlicher Unterstützer"
+ trait_tct_papal_supporter:0 "Päpstlicher Unterstützer"
+ trait_tct_imperial_supporter:0 "Kaiserlicher Unterstützer"
+ d_saxony:0 "Sachsen"
+ building_type_tct_leisure_palace_01:0 "Lustschlösser"
+ building_type_tct_leisure_palace_01_desc:0 "Ein prachtvolles Schloss zu besitzen ist schön, aber mehrere zur Auswahl zu haben schadet nie."
+building_tct_leisure_palace_01:0 "Schloss"
+building_tct_leisure_palace_01_desc:0 "Wenn die Last der Verantwortung zu groß wird (oder ein wütender Mob die Tore stürmt), gibt es keinen besseren Ort als das abgelegene Landschloss für eine spontane Ausspannung!"
+ building_tct_leisure_palace_02:0 "Kaiserpfalz"
+ building_tct_leisure_palace_02_desc:0 "Die Kaiserpfalz von Goslar liegt am Fuße des Harzes, weit entfernt vom niederen Leben unserer sich mühenden Untertanen. Es gibt wahrlich keine bessere Art, königliche Macht und Prestige zu zeigen und die simple Tatsache, dass wir #emphasis besser#! sind als alle anderen."
+ building_tct_leisure_palace_03:0 "Winterpalast"
+ building_tct_leisure_palace_03_desc:0 "Der Winterpalast wurde errichtet, um die königliche Familie während der harten Wintermonate zu beherbergen. Mit gut gefüllter Vorratskammer und verteidigungsfähiger Position thront er über allen frierenden Untertanen, die das Privileg haben, in der Nähe zu arbeiten."
+
+ investiture_controversy_struggle_switch_sides_support_papal:  "Den Papst unterstützen"
+ investiture_controversy_struggle_switch_sides_support_emperor: "Den Kaiser unterstützen"
+ investiture_controversy_struggle:0 ""
+ #Struggle
+ game_concept_investiture_controversy_struggle: "Investiturstreit"
+ game_concept_investiture_controversy_struggle_desc: "The $game_concept_investiture_controversy_struggle$"
+
+ custom.every_opposed_involved_struggle_ruler.imperal_supporter: "Jeder [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )], der [struggle_involved|E]er [ruler|E] ist"
+ custom.every_opposed_interloper_struggle_ruler.imperal_supporter: "Jeder [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )], der [struggle_interloper|E]er [ruler|E] ist"
+ custom.every_opposed_involved_struggle_ruler.papal_supporter: "Jeder [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )], der [struggle_involved|E]er [ruler|E] ist"
+ custom.every_opposed_interloper_struggle_ruler.papal_supporter: "Jeder [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )], der [struggle_interloper|E]er [ruler|E] ist"
+
+catalyst_became_imperial_supporter_tct: "Ein wichtiger [character|E] hat die [decision|E] getroffen, ein [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] zu werden"
+catalyst_became_imperial_supporter_tct_desc: "Ein wichtiger [character|E] trifft die [decision|E], ein [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] zu werden"
+catalyst_became_papal_supporter_tct: "Ein wichtiger [character|E] hat die [decision|E] getroffen, ein [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] zu werden"
+catalyst_became_papal_supporter_tct_desc: "Ein wichtiger [character|E] trifft die [decision|E], ein [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] zu werden"
+
+
+ tct_investiture_struggle.0015.t: "Verkündungen am Hofe"
+tct_investiture_struggle.0015.desc.switch.supporter_becoming_papal_supporter: "Ich habe verkündet, dass wir von nun an in meinen Ländern den [papal_state.GetName] im Namen der Kirche unterstützen werden."
+ tct_investiture_struggle.0015.desc.switch.papal_supporter_becoming_supporter: "Ich habe verkündet, dass wir von nun an in meinen Ländern den [emperor.GetName] mit voller Kraft unterstützen werden."
+ tct_investiture_struggle.0015.desc.switch.presently_neutral: "Die Herrscher um mich herum ergreifen Partei, entweder für die Einheit des [empire.GetName] oder für den [papal_state.GetName].\n\nObwohl ich mich bisher nicht erklärt habe, ist es ein Leichtes, meine Position zu ändern."
+ tct_investiture_struggle.0015.desc.liege.presently_neutral: "Zweifellos hofft mein[ROOT.Char.GetLiege.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLiege.GetTitledFirstName], dass ich [ROOT.Char.GetLiege.Custom('DE_PRO_POS_D_3P')] in dieser Sache folgen werde."
+ tct_investiture_struggle.0015.desc.liege.aligning: "Glücklicherweise bringt mich das in völlige Übereinstimmung mit mein[ROOT.Char.GetLiege.Custom('DE_END_PRO_S_N')] Lehnsherr[ROOT.Char.GetLiege.Custom('DE_END_NOU_S_GS_N')] [ROOT.Char.GetLiege.GetTitledFirstName], [ROOT.Char.GetLiege.Custom('DE_ART_DEF_S_N')] meine neuen Überzeugungen teilt."
+ tct_investiture_struggle.0015.desc.liege.contradicting: "Allerdings ist es besorgniserregend, dass mein[ROOT.Char.GetLiege.Custom('DE_END_PRO_S_N')] Lehnsherr[ROOT.Char.GetLiege.Custom('DE_END_NOU_S_GS_N')] [ROOT.Char.GetLiege.GetTitledFirstName] meine Position nicht teilt und wahrscheinlich schlecht von meiner neuen Haltung denken wird."
+ tct_investiture_struggle.0015.desc.liege.fallback: "Obwohl es für mich und [emperor.GetName] von großer Bedeutung ist, bezweifle ich, dass mein[ROOT.Char.GetLiege.Custom('DE_END_PRO_S_N')] Lehnsherr[ROOT.Char.GetLiege.Custom('DE_END_NOU_S_GS_N')] [ROOT.Char.GetLiege.GetTitledFirstName] sich für solche internen Machtkämpfe interessiert."
+ tct_investiture_struggle.0015.a: "Ich unterstütze [emperor.GetName], aber nicht mein[ROOT.Char.GetLiege.Custom('DE_END_PRO_S_A')] [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]."
+ tct_investiture_struggle.0015.a.tt: "Euer Name wird anstelle von [ROOT.Char.Custom2('YourCharacterIntroduction', ROOT.Char.GetLiege)] verlesen"
+ tct_investiture_struggle.0015.b: "[emperor.GetShortUIName] hat meine Treue!"
+ tct_investiture_struggle.0015.c: "Ich bin wichtiger als diese beiden Narren."
+ tct_investiture_struggle.0015.c.tt: "$tct_investiture_struggle.0015.a.tt$"
+ tct_investiture_struggle.0015.d: "[emperor.Custom('DE_PRO_POS_N_3P')|U] Platz ist in [emperor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], nicht in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]."
+ tct_investiture_struggle.0015.e: "Vielleicht sollte mein Name den meines Lehnsherrn ersetzen..."
+ tct_investiture_struggle.0015.e.tt: "$tct_investiture_struggle.0015.a.tt$"
+ tct_investiture_struggle.0015.f: "Ich habe hier etwas Kühnes getan."
+ tct_investiture_struggle.0015.vassal_semi_rebel: "Vasall missachtet Eure Oberherrschaft"
+
+# Decisions
+ trinity_hre_confirmation_decision: "Titelbestätigung"
+trinity_hre_confirmation_decision_desc: "Es ist üblich, dass [ROOT.Char.GetTopLiege.Custom('DE_ART_DEF_S_N')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] die Vererbung von Titeln in einer Zeremonie vor dem [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]en Hof formell anerkennt."
+ trinity_hre_confirmation_decision_tooltip: "Nehmt an einer [title_recognition|E]-Zeremonie teil, die von Eurem [Concept.('liege', 'Lehnsherrn')|E] abgehalten wird"
+ trinity_hre_confirmation_decision_effects: "Ihr reist an den Hof von [THIS.Char.GetLiege.GetTitledFirstNameRegnal], um Euer [duchy|E] formell anerkennen zu lassen"
+ trinity_hre_confirmation_decision_confirm: "Zur Zeremonie aufbrechen"
+ title_recognition_grace_tt: "#weak Ihr könnt die $trinity_hre_confirmation_decision$ nicht mehr als einmal durchführen#!"
+ title_recognition_grace_valid_tt: "Ihr hattet noch keine [title_recognition|E]"
+ title_recognition_costs_refunded: "Kosten für $trinity_hre_confirmation_decision$ erstattet"
+ title_recognition_rank_tt: "Ihr seid [Select_CString(ROOT.Char.IsFemale, 'eine', 'ein')] [duke|E][ROOT.Char.Custom('DE_END_NOU_S_GS_N')]"
+ title_recognition_liege_tt: "Ihr seid [direct_vassal|E von [THIS.Char.GetTopLiege.GetTitleAsNameNoTooltip] ([THIS.Char.GetTopLiege.GetFirstNameRegnal])"
+ title_recognition_time_tt: "Ihr habt Euren [primary_title|E] mindestens #V 1#! Jahr lang inne ([THIS.Char.GetPrimaryTitle.GetNameNoTier])"
+trinity_hre_confirmation_decision_tt.if_accepted: "Wenn [CHARACTER.GetLiege.GetTitledFirstName] Eure Audienz gewährt:"
+
+ tct_investiture_struggle.2002.opening: "[confirmation_liege.Custom2('AppropriateGreeting', ROOT.Char )]"
+ tct_investiture_struggle.2002.desc: "Ich fürchte, ich bin derzeit viel zu beschäftigt, um eine Bestätigungszeremonie abzuhalten. Viele Pflichten beanspruchen meine Zeit, wie Ihr sicher verstehen werdet.\n\nGute Heimreise nach [confirmation_vassal.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]."
+ tct_investiture_struggle.2002.a: "#EMP Was?!#!"
+
+ tct_unconfirmed_title_holder: "Haupttitel nicht bestätigt"
+ tct_unconfirmed_title_holder_desc: "Der gehaltene Titel dieses Herrschers wurde noch nicht vom Kaiser oder Papst bestätigt."
+
+ # General Loc Strings
+ title_confirmation_event_header: "Bestätigung:"
+
+ # Activity Start: Liege welcomes Governor
+ tct_investiture_struggle.2001.opening: "Seid gegrüßt, [ROOT.Char.GetTitleAsNameNoTooltip],"
+ tct_investiture_struggle.2001.desc: "Ich bin in [confirmation_liege.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] eingetroffen und ersuche um Eure Bestätigung meiner fortwährenden Herrschaft als [confirmation_vassal.GetTitleAsNameNoTooltip] von [confirmation_vassal.GetPrimaryTitle.GetName].\n\nIch warte natürlich auf Eure früheste Verfügbarkeit."
+ tct_investiture_struggle.2001.a: "Bereitet die Zeremonie sofort vor."
+ tct_investiture_struggle.2001.a.tt.court: "Ihr empfangt [confirmation_vassal.GetTitledFirstName] an Eurem [royal_court|E]"
+ tct_investiture_struggle.2001.a.tt: "Ihr empfangt [confirmation_vassal.GetTitledFirstName]"
+ tct_investiture_struggle.2001.b: "Ich bin viel zu beschäftigt, um #EMP [confirmation_vassal.Custom('DE_PRO_PER_S_3P_A')]#! zu empfangen."
+ tct_investiture_struggle.2001.b.tt: "Ihr schickt [confirmation_vassal.GetTitledFirstName] fort"
+
+ tct_investiture_struggle.2002.opening: "[confirmation_liege.Custom2('AppropriateGreeting', ROOT.Char )]"
+ tct_investiture_struggle.2002.desc: "Ich fürchte, ich bin derzeit viel zu beschäftigt, um eine Bestätigungszeremonie abzuhalten. Viele Pflichten beanspruchen meine Zeit, wie Ihr sicher verstehen werdet.\n\nGute Heimreise nach [confirmation_vassal.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]."
+ tct_investiture_struggle.2002.a: "#EMP Was?!#!"
+
+ # Liege Event
+ tct_investiture_struggle.2010.t: "$title_confirmation_event_header$ Diener des Reiches"
+ tct_investiture_struggle.2010.desc: "Der [ROOT.Char.Custom('GetThroneRoom')] ist gefüllt mit einer endlosen Reihe wartender Vasallen.\n\nBesonders bemerkenswert unter ihnen ist [confirmation_vassal.GetTitledFirstName] [confirmation_vassal.GetDynastyHouseName], [ROOT.Char.Custom('DE_ART_DEF_S_N')] aus [confirmation_vassal.GetCapitalLocation.GetNameNoTooltip] angereist ist. Mein/-e [ROOT.Char.Custom2('RelationToMeShort', confirmation_vassal)] herrscht über [confirmation_vassal.GetPrimaryTitle.GetName]:"
+ tct_investiture_struggle.2010.desc_theme_small: "eine kleine Enklave von geringer Bedeutung,"
+ tct_investiture_struggle.2010.desc_theme_big: "ein weitläufiges Gebiet von erheblicher Bedeutung,"
+ tct_investiture_struggle.2010.desc_theme_balanced: "ein angemessen großes Gebiet von mannigfaltigem  Wert für das Reich,"
+ tct_investiture_struggle.2010.desc_cool_foreigners: "die Heimat vertrauenswürdiger, [confirmation_vassal.GetCapitalLocation.GetCounty.GetCulture.GetEthos.GetNameNoTooltip|l]er [confirmation_vassal.GetCapitalLocation.GetCounty.GetCulture.GetCollectiveNoun]"
+ tct_investiture_struggle.2010.desc_weird_foreigners: "die Heimat fremder, [confirmation_vassal.GetCapitalLocation.GetCounty.GetCulture.GetEthos.GetNameNoTooltip|l]er [confirmation_vassal.GetCapitalLocation.GetCounty.GetCulture.GetCollectiveNoun]"
+ tct_investiture_struggle.2010.desc_same_culture: "die Heimat provinzieller [ROOT.Char.GetCulture.GetCollectiveNoun]"
+ tct_investiture_struggle.2010.desc_heretic_faith: "— üble [confirmation_vassal.GetCapitalLocation.GetCounty.GetFaith.GetAdjective]e Heiden!"
+ tct_investiture_struggle.2010.desc_accepted_faith: "— und die [ROOT.Char.GetFaith.HouseOfWorshipPlural] ihres [confirmation_vassal.GetCapitalLocation.GetCounty.GetFaith.GetAdjective]en Glaubens."
+ tct_investiture_struggle.2010.desc_my_faith: "— und einige prächtige [ROOT.Char.GetFaith.HouseOfWorshipPlural] des wahren [ROOT.Char.GetFaith.GetAdjective]en Glaubens."
+
+ tct_investiture_struggle.2010.desc_papal_supporter: "\n\n[confirmation_vassal.GetDynastyHouseName] ist kühn, [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]e Treue zum Papsttum in diesem [investiture_controversy_struggle|E] ist offenkundig — jemand, der meine Herrschaft gerne zu Ende sehen würde. Dennoch kniet [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] hier und ersucht um die Bestätigung [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]er Titel."
+ tct_investiture_struggle.2010.desc_imperial_supporter: "Glücklicherweise ist [confirmation_vassal.GetTitledFirstName] ein Unterstützer der Kaiserlichen in diesem [investiture_controversy_struggle|E], einer Fraktion von Ländern, die mit der weltlichen Herrschaft des Reiches zufrieden sind."
+ tct_investiture_struggle.2010.desc_no_support: "[confirmation_vassal.GetTitledFirstName] ist ein merkwürdiger Fall; [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] hat [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]e Unterstützung für keine der Fraktionen in diesem [investiture_controversy_struggle|E] erklärt; vielleicht ist jetzt die Zeit gekommen, [confirmation_vassal.Custom('DE_PRO_PER_S_3P_A')] zu überzeugen."
+
+ tct_investiture_struggle.2010.desc_hate: "\n\nSelbst wenn ich auf seinen gesenkten Kopf herabblicke, spüre ich [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]en glühenden Hass. [confirmation_vassal.GetTitledFirstNameNoTooltip] murmelt [second.Custom('quirk_neg_adverb')] Eide... während [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] davon träumt, mich mit [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]em Zepter totzuschlagen."
+ tct_investiture_struggle.2010.desc_love: "\n\n[second.Custom('quirk_pos_adverb')|U] vollzieht [confirmation_vassal.GetTitledFirstNameNoTooltip] die Riten. [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] erhebt [confirmation_vassal.Custom('DE_PRO_POS_S_3P')] Amtszepter und schwört [second.Custom('quirk_pos_pp')], treuen Dienst zu leisten."
+ tct_investiture_struggle.2010.desc_decrepit: "\n\nMit [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]em von der Zeit gebeugten Rücken, kämpft sich [confirmation_vassal.GetTitledFirstNameNoTooltip] aus der Kniebeuge hoch. Der alte Weise hat viel Erfahrung, auf die er zurückgreifen kann... und hoffentlich noch einige Jahre, um sie zu nutzen."
+ tct_investiture_struggle.2010.desc_young: "\n\nKaum mehr als ein Grünschnabel, spricht [confirmation_vassal.GetTitledFirstNameNoTooltip] die Riten mit dem Amtszepter fest in weichen Händen. Bei [confirmation_vassal.Custom('DE_PRO_PER_S_3P_D')] muss sich noch viel beweisen..."
+ tct_investiture_struggle.2010.desc_skilled: "\n\n[confirmation_vassal.Custom('DE_ART_DEF_S_N')|U] [confirmation_vassal.GetWomanMan] vor mir regiert mit [confirmation_vassal.Custom('ComplimentAdjective')]em Geschick. Welche Politik [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] auch verfolgt, was auch immer in [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]em Herzen liegt: [confirmation_vassal.GetTitledFirstNameNoTooltip] ist eine Zierde für [ROOT.Char.Custom('DE_ART_DEF_S_A')] [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]."
+ tct_investiture_struggle.2010.desc_incompetent: "\n\nAllen Berichten zufolge bestätige ich gerade die Ernennung von jemandem, der [second.Custom('quirk_neg_adverb')] regiert. Aber [confirmation_vassal.GetTitledFirstNameNoTooltip] zurückzuweisen, während [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] mir den perfekten Dienst schwört, den [confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')] nicht leisten kann, wird wenig nützen..."
+ tct_investiture_struggle.2010.desc_generic_outro: "\n\n[confirmation_vassal.GetTitledFirstNameNoTooltip] verbeugt sich tief, nimmt [confirmation_vassal.Custom('DE_PRO_POS_S_3P')] symbolisches Amtszepter entgegen und schwört, [confirmation_vassal.Custom('DE_PRO_POS_S_3P')]em [ROOT.Char.GetTitleAsNameNoTooltip] treu zu dienen."
+ tct_investiture_struggle.2010.imperial: "[confirmation_vassal.Custom('DE_PRO_PER_S_3P_N')|U] muss sich der Kaiserlichen Fraktion unterwerfen"
+ tct_investiture_struggle.2010.imperial.tt: "Ihr werdet verlangen, dass [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] Eurer Fraktion im [investiture_controversy_struggle|E] die Treue schwört"
+ tct_investiture_struggle.2010.deny: "Ich werde keinen päpstlichen Schergen dulden."
+ tct_investiture_struggle.2010.a: "„Regiert gut, [confirmation_vassal.GetTitleAsNameNoTooltip].”"
+
+ # Vassal Event
+ tct_investiture_struggle.2011.desc: "Im [confirmation_liege.Custom('GetThroneRoom')] des königlichen Hofes von [confirmation_liege.GetCapitalLocation.GetTitle.GetNameNoTier] sitzt [confirmation_liege.GetTitledFirstNameRegnal] — [confirmation_liege.GetFaith.HighGodNamePossessive] Stellvertreter auf Erden — in voller Pracht.\n\n"
+ tct_investiture_struggle.2011.desc_child: "Zwischen anderen hohen Würdenträgern zu warten, während ein[confirmation_liege.Custom('DE_END_ADJ_NUL_S_N')] pickelgesichtig[confirmation_liege.Custom('DE_END_ADJ_NUL_S_N')] [Select_CString(confirmation_liege.IsFemale, 'Jugendliche', 'Jugendlicher')] auf [confirmation_liege.Custom('DE_PRO_POS_S_3P')]em Thron jammert und zappelt, ist... ziemlich seltsam."
+ tct_investiture_struggle.2011.desc_heretic: "Der Heide, der über das [confirmation_liege.GetPrimaryTitle.GetTierAsName] der [confirmation_liege.GetCapitalLocation.GetCounty.GetFaith.GetAdherentNamePlural] herrscht. Selbst hier, inmitten der [confirmation_liege.GetFaith.PriestNeuterPlural] und Prälaten des Hofes, ist die Stimmung angespannt."
+ tct_investiture_struggle.2011.desc_war: "Als wir Amtsträger niederknien und unsere Zeremonie beginnt, werfen die Militärs ungeduldige Blicke auf uns. Ihr Krieg scheint wenig Rücksicht auf unsere Traditionen zu nehmen."
+ tct_investiture_struggle.2011.desc_poorly_run: "Es herrscht völliges Chaos. Die Höflinge kichern, während wir Amtsträger an unsere Plätze gedrängt werden, und nur wenige rituelle Formalitäten werden eingehalten."
+ tct_investiture_struggle.2011.desc_well_run: "Eine endlose Schlange von Würdenträgern wartet, alle in Ehrfurcht, alle begierig, vor unserem Herrscher niederzuknien. Die Zeremonie ist gut organisiert, und ich bin mir sicher, dass ich bald an der Reihe sein werde."
+ tct_investiture_struggle.2011.desc_gender: "Ein[confirmation_liege.Custom('DE_END_NOU_S_GS_N')] [confirmation_liege.GetWomanMan] auf dem Thron. Wie gut, dass es uns besuchenden Amtsträgern verboten ist, zu unserem Oberhaupt aufzublicken!"
+ tct_investiture_struggle.2011.desc_typical_palace: "Ich werde aufgefordert, mich in eine Schlange hochrangiger Amtsträger einzureihen. Unter dem Jubel aller Anwesenden, der Musikanten und Herolde, beginnt unsere große Zeremonie."
+
+ tct_investiture_struggle.2011.desc_hate: "[confirmation_liege.Custom('DE_ART_DEF_S_N')|U] [confirmation_liege.GetTitleAsNameNoTooltip] spricht mich [second.Custom('quirk_neg_adverb')] an; [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')] tropft Hohn auf mein gebeugtes Haupt, während meine Insignien über mir schweben.\n\n"
+ tct_investiture_struggle.2011.desc_love: "Doch die Stimme von [confirmation_liege.GetTitleAsNameNoTooltip] ist warm und [second.Custom('quirk_pos_adjective')], als [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')] mich anspricht und mir meine Insignien überreicht.\n\n"
+ tct_investiture_struggle.2011.desc_meh: "[confirmation_liege.Custom('DE_ART_DEF_S_N')|U] [confirmation_liege.GetTitleAsNameNoTooltip] spricht nacheinander jeden zu Ernennenden an, überreicht ihm seine Insignien und nimmt seinen Eid entgegen, bis ich an der Reie bin.\n\n"
+
+ tct_investiture_struggle.2011.desc_theme_civilian: "„Der himmlische Frieden möge in [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] fortbestehen”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „er ist ein Garten, den es sorgsam zu pflegen gilt.”"
+ tct_investiture_struggle.2011.desc_theme_military: "„Ihr sollt das Schwert von [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] schärfen”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „und es nur von den Rechtschaffenen schwingen lassen.”"
+ tct_investiture_struggle.2011.desc_theme_frontier: "„Ruhet wenig”, befiehlt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „Steht Euren Mann. [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] ist der Ort, an dem alles [confirmation_liege.GetPrimaryTitle.GetAdjective]e lebt oder stirbt.”"
+ tct_investiture_struggle.2011.desc_theme_imperial: "„In [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „sollt Ihr das Ebenbild des [confirmation_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]es selbst sein. Wenige, außer den Verderbten, können solche Freiheiten genießen.”"
+ tct_investiture_struggle.2011.desc_theme_naval: "„Im Salz der Küsten von [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „riechet das Blut dieses [confirmation_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]es; seht die Tränen seiner Witwen.”"
+ tct_investiture_struggle.2011.desc_theme_small: "„Eine bescheidene Gerichtsbarkeit, [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „aber eine würdige.”"
+ tct_investiture_struggle.2011.desc_theme_big: "„Ein so weitläufiges Gebiet wie [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')] zwischenall der Formalitäten, „ist eine mächtige Bestie, die nur vom rechten Herrn gezähmt werden kann...”"
+ tct_investiture_struggle.2011.desc_theme_balanced: "„Euer Amt wurde Euch von [confirmation_liege.GetFaith.HighGodName] und Eurem [confirmation_liege.GetTitleAsNameNoTooltip] verliehen”, sagt [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], „Bedenkt dies und regiert [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] gut.”"
+ tct_investiture_struggle.2011.desc_outro: "\n\nIch spreche alle gebührenden Erwiderungen. Und während ich mich tief vor [Select_CString( ROOT.Char.GetLiege.IsFemale, 'meiner Lehnsherrin', 'meinem Lehnsherrn' )] verneige, ergreife ich schließlich das Zepter meines Lehens.."
+ tct_investiture_struggle.2011.a: "Heil Euch, [confirmation_liege.GetTitleAsNameNoTooltip]."
+
+ # Imperial hardliner: if they're not a supporter, demand they become one. If they refuse, deny confirmation entirely.
+
+ tct_investiture_struggle.2020.t: "$title_confirmation_event_header$ Kaiserlicher Eiferer"
+ tct_investiture_struggle.2020.desc: "Im [confirmation_liege.Custom('GetThroneRoom')] des königlichen Hofes von [confirmation_liege.GetCapitalLocation.GetTitle.GetNameNoTier] sitzt [confirmation_liege.GetTitledFirstNameRegnal] — [confirmation_liege.GetFaith.HighGodNamePossessive] Stellvertreter auf Erden — in voller Pracht.\n\n[confirmation_liege.Custom('DE_ART_DEF_S_N')] Kaiser blickt streng, [confirmation_liege.Custom('DE_PRO_POS_S_3P')]e Forderung ist klar: Ich soll der kaiserlichen Seite im Investiturstreit die Treue schwören. Im Gegenzug verspricht [confirmation_liege.Custom('DE_PRO_PER_S_3P_N')], meine Titel zu bestätigen, doch sollte ich ablehnen, werde ich [confirmation_liege.Custom('DE_PRO_POS_S_3P')]e Gunst verlieren."
+ tct_investiture_struggle.2020.a: "Ich schwöre dem Kaiser und der kaiserlichen Seite meine Treue."
+ tct_investiture_struggle.2020.b: "Ich kann mein Gewissen nicht verraten, nicht einmal für meine Titel."
+
+
+ # Invalidated event
+ tct_investiture_struggle.2080.t: "$title_confirmation_event_header$ Ungültig"
+ tct_investiture_struggle.2080.desc.court: "Nun, da ich [ROOT.Char.GetTitleAsNameNoTooltip] von [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] bin, ist meine Reise nicht länger notwendig..."
+ tct_investiture_struggle.2080.desc.imprisoned_me: "$tct_investiture_struggle.2080_shared_intro$ warf mich [ROOT.Char.GetImprisonedBy.GetTitledFirstName] in dem Kerker."
+ tct_investiture_struggle.2080.desc.imprisoned: "$tct_investiture_struggle.2080_shared_intro$ wurde ich von [ROOT.Char.GetImprisonedBy.GetTitledFirstName] gefangen genommen."
+ tct_investiture_struggle.2080.desc.liege_dead_me: "$tct_investiture_struggle.2080_shared_intro$ ist es mir leider passiert, dass ich [confirmation_liege.GetTitledFirstName] getötet habe... \n\n"
+ tct_investiture_struggle.2080.desc.liege_dead: "$tct_investiture_struggle.2080_shared_intro$ [confirmation_liege.GetTitledFirstName] [confirmation_liege.GetDeathReasonHideKiller]... \n\n"
+ tct_investiture_struggle.2080.desc.liege_imprisoned_me: "$tct_investiture_struggle.2080_shared_intro$ nahm ich [confirmation_liege.GetTitledFirstName] gefangen!"
+ tct_investiture_struggle.2080.desc.liege_imprisoned: "$tct_investiture_struggle.2080_shared_intro$ wurde [confirmation_liege.GetTitledFirstName] von [confirmation_liege.GetImprisonedBy.GetTitledFirstName] gefangen genommen."
+ tct_investiture_struggle.2080.desc.new_liege: "Wenn ich bestätigt werden soll, dann muss es durch [Select_CString( ROOT.Char.GetLiege.IsFemale, 'meine neue Lehnsherrin', 'meinen neuen Lehnsherrn' )] [ROOT.Char.GetLiege.GetTitledFirstNameRegnal] geschehen."
+ tct_investiture_struggle.2080_shared_intro: "Nach all den Mühen bei den Vorbereitungen für meine Bestätigungszeremonie,"
+ tct_investiture_struggle.2080.desc: "\n\nDas ändert wohl die Lage."
+ tct_investiture_struggle.2080.a_court: "Vorwärts, streben wir nach Höherem."
+ tct_investiture_struggle.2080.a_prison: "Verflucht."
+ tct_investiture_struggle.2080.a_liege: "Höchst ärgerlich..."
+ tct_investiture_struggle.2080.a: "Zeit, die Dinge zu überdenken..."
+
+ tct_investiture_struggle_costs_refunded: "Kosten für $tct_investiture_struggle_decision$ erstattet"
+
+
+
+
+
+
+
+
+ tct_investiture_struggle_switch_sides_decision.imperial_supporter_turns_papal_supporter.t:0 "Päpstlicher Unterstützer werden"
+ tct_investiture_struggle_switch_sides_decision.papal_supporter_turns_imperial_supporter.t:0 "Kaiserlicher Unterstützer werden"
+ tct_investiture_struggle_switch_sides_decision.neutral.t:0 "Partei ergreifen im $investiture_controversy_struggle$"
+ tct_investiture_struggle_switch_sides_decision.imperial_supporter_turns_papal_supporter.desc.boilerplate:0 "Die Vision des Kaisers hat sich zu weit von der Rechtschaffenheit entfernt. Ich kann nicht länger sein Verbündeter bleiben. Die Zeit ist gekommen, an der Seite des Papstes zu stehen, die Heiligkeit der Kirche und ihre Autorität zu verteidigen. Meine Entscheidung wird nicht unbemerkt bleiben — es wird jene geben, die mich preisen, und jene, die meinen Namen verfluchen."
+ tct_investiture_struggle_switch_sides_decision.imperial_supporter_turns_papal_supporter.desc:0 "Ich entsage meiner Treue zum Kaiser. Von diesem Tag an werde ich für das göttliche Recht des Heiligen Vaters kämpfen, die Investituren zu kontrollieren."
+ tct_investiture_struggle_switch_sides_decision.papal_supporter_turns_imperial_supporter.desc:0 "Der Papst hat seine Grenzen überschritten und die Gläubigen ins Chaos gestürzt. Ich muss mit dem Papsttum brechen und zum Kaiser stehen, dessen Vision von Ordnung und Souveränität dauerhaften Frieden bringen wird."
+ tct_investiture_struggle_switch_sides_decision.neutral.desc:0 "Neutralität war zu lange mein Schutzschild, doch die Welt verlangt eine Entscheidung. Soll ich zum Kaiser stehen, dem Verteidiger weltlicher Herrschaft, oder zum Papst, dem Träger göttlichen Willens?"
+
+
+ tct_investiture_struggle_switch_sides_decision.tt.orthodox_sunnis_only: "Euer [head_of_faith|E]-[title|E] muss [GetTitleByKey('d_sunni').GetName] sein"
+ tct_investiture_struggle_switch_sides_decision.tt.hre_emperor_must_exist: "Es gibt keinen Kaiser, dem man sich widersetzen könnte"
+ tct_investiture_struggle_switch_sides_decision.tt.hre_emperor_cannot_change_prayer_order: "Ihr #BOL seid#! der Kaiser!"
+ tct_investiture_struggle_switch_sides_decision.tt.pope_cannot_change_prayer_order: "Ihr #BOL seid#! der Papst!"
+ tct_investiture_struggle_switch_sides_decision.tt.require_new_emperor_or_modifier_lapse: "Ihr habt Euch zu kürzlich erklärt — entweder muss Euer [modifier|E] ablaufen oder der Kaiser muss wechseln"
+ tct_investiture_struggle_switch_sides_decision.tt.require_new_emperor_or_flag_lapse: "Ihr habt Euch dem Kaiser zu kürzlich widersetzt — entweder müssen einige Jahrzehnte vergehen oder der Kaiser muss wechseln"
+ tct_investiture_struggle_switch_sides_decision.tt.emperor_murderers_cant_become_supporters: "Ihr habt einen Kaiser getötet, der nicht Teil Eurer [dynasty|E] war — niemand wird Eure Unterstützung ernst nehmen"
+ tct_investiture_struggle_switch_sides_decision.tt.become_supporter: "Erklärt Euch für den Kaiser"
+ tct_investiture_struggle_switch_sides_decision.tt.become_papal_supporter: "Erklärt Euch für den Papst"
+ tct_investiture_struggle_switch_sides_decision.tt.fallback_validity: "#N Andernfalls könnt Ihr die [decision|E] immer noch treffen, auf Kosten von [stress|E] und mehr [piety|E]#!"
+ tct_investiture_struggle_switch_sides_decision_confirm: "Damit alle es hören können!"
+ tct_investiture_struggle_switch_sides_decision_tooltip: "Ändert Eure Gefolgschaft im [investiture_controversy_struggle|E]"
+
+
+
+
+ character_cannot_be_targetted:0 "Dieser Charakter kann nicht zum Ziel gewählt werden"
+
+
+ #EVENT LOC
+ tct_neutral_struggle.0002.t: "Goslar, die Silberminen und die Sachsen"
+ tct_neutral_struggle.0002.desc: "Ich stehe in der Kaiserpfalz zu Goslar und blicke auf die Felder hinab... die Sachsen — ein Dorn im Fleische, ein Dorn, der bis in die Herrschaft meines verstorbenen Vaters zurückreicht. Goslar, diese Pfalz, die Einheit symbolisieren sollte, ist stattdessen zu einer Schlinge um ihre Existenz geworden. Ein bitterer Trank, den es zu schlucken gilt, doch wer bin ich, die Bürde meiner Abstammung zu verleugnen?\n\nDennoch stehe ich fest zu meinen Absichten. Die Silberminen des Rammelsbergs, die Festungen, die sich wie Drachen entlang des Harzes erheben — dies sind nicht bloß Launen eines Tyrannen. Sie sind Bollwerke kaiserlicher Macht, meiner Macht als Kaiser. Meine Ministerialen, ungeachtet ihrer schwäbischen Wurzeln, sind Sehne und Knochen dieser Vision. Wenn die Sachsen dies als Bedrohung sehen, dann nur, weil sie von ihren eigenen Unsicherheiten verblendet sind. Sie werden es bald verstehen, sei es freiwillig oder durch die feste Hand meiner Herrschaft."
+ tct_neutral_struggle.0002.a: "Alles zu seiner Zeit..."
+
+ tct_neutral_struggle.0003.t: "Goslar, die Silberminen und die Salier"
+ tct_neutral_struggle.0003.desc: "Dunkel sind die Tage, seit Heinrich IV. den Thron bestieg und seinen Schatten wie ein kreisender Habicht über das Sachsenland wirft. Mein Herz schlägt vor Empörung, wenn ich von den Taten des Kaisers höre, dessen rheinisch-fränkisches Erbe keine Liebe für uns übrig hat. Goslar, dieser verfluchte Palast, hat nicht nur unseren Reichtum verschlungen, sondern ist zu einem Symbol der Unterwerfung geworden. Ich spüre den Groll, der unter meinen Landsleuten brodelt, ein Kessel kurz vor dem Überkochen.\n\nIm Herzen des Harzes plündert er unser Silber und errichtet Festungen, als wolle er sein Reich mit Trophäen der Eroberung schmücken. Die Harzburg und ihresgleichen dienen als Mahnmale seiner Macht. Doch die wahre Schmach liegt in den schwäbischen Ministerialen, die er auf uns losgelassen hat, Männer, die unsere Dörfer überfallen und unsere Ehre besudeln. Heinrich mag dies als Bekundung königlicher Macht sehen, doch wir erkennen es als das, was es ist — ein Übergriff, eine Bedrohung unserer Existenz. Diese Unruhe findet Widerhall selbst unter den großen Fürsten des Reiches. Wenn Heinrich glaubt, dass Burgen und Ministeriale den sächsischen Geist brechen können, irrt er gewaltig. Die Zeit der stillen Duldung schwindet; der Augenblick zum Handeln rückt näher."
+ tct_neutral_struggle.0003.a: "Alles zu seiner Zeit..."
+
+
+ tct_neutral_struggle.0004.t: "Ravensburg, Enterbung und die aufkeimende Rebellion"
+ tct_neutral_struggle.0004.desc: "Die Familie von [spouse.GetFirstName], die Herzöge von Bayern, stellen sich entschlossen gegen die Ambitionen von [emperor.GetTitledFirstName], doch mir bleibt kaum mehr als Ravensburg. Mein Vater, [father.GetFullName], bevorzugt meinen Halbbruder und lässt mich über meine Zukunft im Ungewissen. Die mögliche Rebellion des Hauses [spouse.GetDynastyName] ist verlockend, aber ein Bündnis mit dem Kaiser könnte meine Position sichern. Oder ich könnte mich zurück zur Lombardei wenden, wo mich noch immer Blutsbande verbinden, was einen anderen Weg eröffnen würde."
+ tct_neutral_struggle.0004.a: "Wir sollten nichts überstürzen."
+ tct_neutral_struggle.0004.a.tt: "Die Zukunft ist ungewiss und könnte Euch andere Möglichkeiten eröffnen."
+
+ tct_neutral_struggle.0005.t: "Niederlothringen und das Reich"
+ tct_neutral_struggle.0005.desc: "Vor etwa einem Jahr verlieh mir Heinrich IV. [GetTitleByKey('d_lower_lorraine').GetName] und [GetTitleByKey('c_antwerpen').GetName], wodurch ein jahrzehntelanger Streit mit seinem Vater Heinrich III. beigelegt wurde.\n\nObwohl mir noch immer [GetTitleByKey('d_upper_lorraine').GetName] fehlt, das Heinrich III. mir entzogen hat, frage ich mich, ob ich die Region erneut aufwiegeln oder mit dem zufrieden sein soll, was ich habe."
+ tct_neutral_struggle.0005.a: "Ich halte mich aus Schwierigkeiten raus."
+ tct_neutral_struggle.0005.b: "Um ehrlich zu sein, kann ich nichts versprechen..."
+
+ # Saxon Rebellion Chain
+
+# "Accusations of Treason" (1070). # Event for Otto of Bavaria and Heinrich IV
+# Egeno of Konradsburg accuses Otto of Bavaria for Treason. Calls for a Trial
+ tct_neutral_struggle.1001.t: "Anklage wegen Hochverrats"
+ tct_neutral_struggle.1001.desc.a: "Ich halte einen versiegelten Brief mit dem Wappen von [emperor.GetTitledFirstName] in den Händen. Die Forderung ist eindeutig: Ich soll mich in [province.GetNameNoTier] einfinden, um mich gewisser 'Verbrechen' gegen die Krone zu verantworten.\n\n#italic 'Ich, [Egeno.GetFullName], stehe vor Euch mit einer schrecklichen Wahrheit: Ich habe eine niederträchtige Verschwörung gegen unseren Herrscher, [emperor.GetTitledFirstName], aufgedeckt. Die Grafen der [saxons.GetName], angeführt von [otto.GetFirstName] [otto.GetDynastyName], [otto.GetTitleAsNameNoTooltip] von [otto.GetPrimaryTitle.GetNameNoTier], haben in den Schatten geplant, die Krone zu stürzen. Doch es geht noch weiter — [otto.GetFirstName] selbst gab mir den Befehl, den König zu ermorden! Dieser Verrat sitzt tief, und ich wurde Zeuge ihrer finsteren Pläne.' #! \n\nVerschwörung... #italic Mord...#! Mein Name nun verknüpft mit Hochverrat...\nZweifellos hat das ganze Reich diese Anschuldigungen bereits vernommen; alle Augen ruhen auf mir."
+ tct_neutral_struggle.1001.desc.b: "Der Hof summt vor gedämpftem Gemurmel, als Egeno vorwärts schreitet, erhobenen Hauptes und den Blick fest auf mich gerichtet. Er kniet kurz nieder, erhebt sich dann und spricht mit einer Stimme, die die Aufmerksamkeit aller Anwesenden auf sich zieht.\n\n#italic „Ich, [Egeno.GetFullName], bringe schlimme Kunde vor Eure Kaiserliche Majestät. Verrat wuchert in Eurem Reich! Die Grafen der [saxons.GetName], mit [otto.GetFirstName] [otto.GetDynastyName], [otto.GetTitleAsNameNoTooltip] von [otto.GetPrimaryTitle.GetNameNoTier], an ihrer Spitze, haben sich verschworen, Eure gottgegebene Herrschaft zu stürzen. Und schlimmer noch — [otto.GetFirstName] selbst befahl mir, Euch zu ermorden, mein Lehnsherr!” #! \n\nEntsetzte Schluchzer durchziehen den Saal, doch ich beobachte, wie die Blicke nicht zu Egeno, sondern zu mir wandern. Seine Darbietung ist makellos, wie wir es vereinbart hatten. Der Hof hält dies für seinen Moment der Tapferkeit, doch der Weg war bereits beschritten, lange bevor er sprach.\n\n„Dies sind schwerwiegende Anschuldigungen”, erkläre ich mit fester Stimme. „Lasst [otto.GetFirstName] [otto.GetDynastyName] sich vor Gott und dem Reich verantworten.”"
+ tct_neutral_struggle.1001.a: "Ich muss mich verteidigen..."
+ tct_neutral_struggle.1001.a.tt: "Ihr werdet nach [province.GetNameNoTier] reisen"
+ tct_neutral_struggle.1001.ab: "Alles nach Plan"
+ tct_neutral_struggle.1001.b.tt: "[otto.GetFirstName] [otto.GetDynastyName] wird einen Brief erhalten und nach [province.GetNameNoTier] reisen, um sich dem Gericht zu stellen"
+
+
+# "The Court's Judgment" # Event for Otto of Bavaria and Heinrich IV
+# Attempt to plea your case, or break off as an adventurer. (If Deposed you become an adventurer anyways)
+ tct_neutral_struggle.1002.t: "Das Urteil des Hofes"
+ tct_neutral_struggle.1002.desc.a: "Während ich durch die Straßen der Stadt reite, lastet der Blick unzähliger Augen auf mir — Adlige tuscheln hinter verschlossenen Türen, und das gemeine Volk beobachtet mich mit vorsichtiger Neugier. [emperor.GetTitledFirstName], auf seinem Thron richtend, sucht heute nicht nach Gerechtigkeit. Sein Ziel ist klar: eine Bedrohung zu beseitigen, einen der wenigen [saxons.GetName], die sich ihm widersetzen könnten.\n\nDennoch reite ich weiter. Um meines Hauses willen muss ich dem entgegentreten, was vor mir liegt. Jetzt zu fliehen würde nur jeden Verdacht, jede Anschuldigung bestätigen. Doch standzuhalten und mich dem Gericht zu stellen... vielleicht gibt es noch eine Chance, so gering sie auch sein mag, dieses Urteil zu meinen Gunsten zu wenden... Mein Name wird aufgerufen, und der Prozess beginnt."
+ tct_neutral_struggle.1002.desc.b: "[otto.GetFirstName] [otto.GetDynastyName] wird in den königlichen Thronsaal geleitet, die Stille der versammelten Adligen nur vom Rascheln der Gewänder durchbrochen. Dieser Prozess wird keine Gerechtigkeit bringen — Die Anklagen, die 'Beweise', das Getuschel — alles wurde arrangiert, um seinen Fall zu besiegeln.\n\nSelbst jetzt werden die Figuren noch gespielt. [welf.GetFullName], ein Vasall des Angeklagten, wurde ein Weg zur Macht angeboten: die Verbindungen zum Verräter kappen, die Ehe mit [otto.GetFirstName]s Tochter lösen und mir die Treue schwören. Im Gegenzug wird [GetTitleByKey('d_bavaria').GetName] ihm gehören. Er weiß, wofür dieser Prozess steht — [otto.GetFirstName]s Schicksal ist besiegelt. Die einzige Frage ist, ob [welf.GetFirstName] daraus emporsteigen oder mit in den Abgrund stürzen wird."
+
+ tct_neutral_struggle.1002.a: "Ich werde mich dem Gericht stellen."
+ tct_neutral_struggle.1002.a.success: "Eure Rede überzeugt die Geschworenen von Eurer Unschuld"
+ tct_neutral_struggle.1002.a.failure: "Eure Rede überzeugt niemanden"
+ tct_neutral_struggle.1002.b: "Ich muss #italic fliehen#!"
+ tct_neutral_struggle.1002.c: "Und so fällt der Sachse..."
+# New Opportunities # Event for Welf IV
+# Offer from Emperor, for Welf to Divorce Wife / Split from Nordheim's, In exchange, get the Duchy of Bavaria
+ tct_neutral_struggle.1003.t: "Neue Möglichkeiten"
+ tct_neutral_struggle.1003.desc: "Der Reichskanzler ist unerwartet eingetroffen, mit einer Botschaft von [emperor.GetTitledFirstName] höchstselbst. Er beginnt, das Angebot des Kaisers mit bedachten und präzisen Worten zu übermitteln. „[otto.GetFirstName] [otto.GetDynastyName], [ROOT.Char.Custom('DE_ART_DEF_S_N')] [otto.GetTitleAsName] von [otto.GetPrimaryTitle.GetNameNoTier], Euer Schwiegervater, steht derzeit in [province.GetNameNoTier] vor Gericht...” \n\nAm Ton des Kanzlers ist klar zu erkennen, dass der Prozess eine bloße Formalität ist. Ottos Schicksal ist bereits besiegelt — der Kaiser beabsichtigt, ihn seiner Macht zu entledigen. \n\nDer Kanzler beugt sich näher heran, seine Stimme wird leiser. „[emperor.GetTitledFirstName] bietet Euch eine große Gelegenheit. Schwört ihm die Treue, trennt Euch von Eurer Nordheimer Gemahlin und brecht alle Bande mit ihrer Familie. Im Gegenzug wird das Herzogtum Bayern Euch gehören.” Das Angebot ist eindeutig: Ich löse mich von Ottos Haus, und das Herzogtum geht in meine Hände über, doch Otto und Ethelinde den Rücken zu kehren... Ich muss mich rasch entscheiden..."
+ tct_neutral_struggle.1003.a: "Ich nehme das Angebot an."
+ tct_neutral_struggle.1003.b: "Ich muss ablehnen..."
+
+# "Allies in the Shadows" # Event for Otto of Bavaria and Magnus Billung
+# Otto Forging war plans with Magnus Billung
+ tct_neutral_struggle.1004.t: "Verbündete im Schatten"
+ #tct_neutral_struggle.1004.opening: "To Otto, once Duke of Bavaria and still a man of honor despite the crown’s betrayal"
+ tct_neutral_struggle.1004.desc: "#italic 'An [otto.GetFirstName], einst Herzog von Bayern und noch immer ein Mann von Ehre trotz des Verrats der Krone. Lange schon denke ich über das Unrecht nach, das Euch angetan wurde — einem Mann, dessen Treue mit Verachtung vergolten wurde. Wisset, dass Ihr nicht vergessen seid — am wenigsten von mir. \n\nDer Prozess des Kaisers mag Euch im Reich zum Schweigen gebracht haben, doch hier in Sachsen sprechen wir von Eurem Fall als Beweis seiner Tyrannei. Menschen mögen durch Worte aufsteigen, doch nur Stahl wird den Kaiser in die Knie zwingen. Mein Volk murmelt von Aufruhr, und ich kann nicht länger untätig zusehen, während [emperor.GetFirstName] seinen mächtigen Knüppel gegen die Sachsen schwingt. \n\nIhr sollt wieder in Euren rechtmäßigen Stand erhoben werden, so wie ich meine Familie für ihr Leid gerächt sehen will. Ich habe die Mittel, eine Schar treuer Krieger für Euch aufzustellen. Im Gegenzug erbitte ich Euer Schwert und Euren Namen an meiner Seite, wenn die Zeit gekommen ist. Gemeinsam werden wir die Fäulnis wegbrennen und zurückfordern, was uns zusteht.'#!"
+ tct_neutral_struggle.1004.a: "Ich werde Euch in diesem Kampf zur Seite stehen."
+ tct_neutral_struggle.1004.a.tt: "@warning_icon! #X Ihr werdet Euch dem #high Bürgerkrieg#! gegen [emperor.GetShortUIName] anschließen, auf der Seite der Sachsen unter Führung von [magnus.GetShortUIName] in wenigen Monaten#!"
+ tct_neutral_struggle.1004.b: "Meine Zeit am kaiserlichen Hof ist vorüber."
+ tct_neutral_struggle.1004.b.tt: "Ihr werdet ein Abenteurer bleiben"
+
+# "The Saxon Revolt" # Event for Otto of Bavaria and Heinrich IV, maybe everyone in the struggle region?
+ FIRST_SAXON_REVOLT_WAR_NAME: "Der Sächsische Aufstand"
+ tct_neutral_struggle.1005.t: "Der Sächsische Aufstand"
+ tct_neutral_struggle.1005.desc: "Die Sachsen haben sich erhoben, ihr lange schwelender Zorn bricht nun in offener Rebellion aus. \n\nDer Prozess des Kaisers gegen [otto.GetFirstName] [otto.GetDynastyName] war der Funke, der Jahre der Verbitterung in einen ausgewachsenen Aufstand verwandelte. Unter der Führung von [magnus.GetFullName] haben sich die sächsischen Herren unter einem Banner vereint, und das Volk, ermutigt durch ihre Stärke, hat zu den Waffen gegriffen, um das Joch kaiserlicher Unterdrückung abzuwerfen. Die Aufständischen marschieren nun auf Goslar, ihr Ziel ist eindeutig: den Kaiser für seine Tyrannei zur Rechenschaft zu ziehen."
+ tct_neutral_struggle.1005.a: "Möge der Bessere siegen."
+ tct_neutral_struggle.1005.b: "Möge der Bessere siegen."
+ every_saxon_vassal: "Jeder Vasall Eurer [culture.GetNameNoTooltip]"
+
+ every_tct_faith_vassal: "Jeder [GetFaithByKey('catholic').GetAdjective] Vasall"
+
+# "The Sack of Harzburg" # Event for Otto of Bavaria and Heinrich IV
+
+ tct_neutral_struggle.1006.t: "Die Plünderung der Harzburg"
+ tct_neutral_struggle.1006.desc: "Die einst stolze Harzburg liegt in Trümmern, ihr geweihter Boden geschändet. Eine Gruppe von [magnus.GetFirstName]' Rebellentruppen hat sich zu ungezügelter Barbarei hinreißen lassen. Gräber wurden aufgerissen, die sterblichen Überreste von Fürsten und Bischöfen wie Unrat fortgeworfen, ihre Heiligkeit von höhnenden Plünderern verspottet. Die Kapelle, einst ein Ort der Andacht, ist nur noch Schutt, ihre Reliquien gestohlen oder zerstört, ihre Altäre mit Blut und Asche besudelt. \n\nDie Mönche, die versuchten, die Gräber zu schützen, liegen zwischen den Trümmern, ihre leblosen Körper verstreut, wo sie ihren letzten Stand hielten. Einige Rebellen lachen über das Gemetzel, ihre Grausamkeit ungezügelt, während andere zögern, Entsetzen in ihre Gesichter gemeißelt, als das Ausmaß der Barbarei ihrer Gefährten deutlich wird. \n\nDies ist keine Rebellion mehr — es ist Gotteslästerung. unruhiges Geflüster breitet sich im Reich aus: ‚Dies war keine Gerechtigkeit.' Dies hat den Kaiser nicht gebrochen, sondern seinen Anspruch auf Rache nur gestärkt. Was einst ein Aufstand für Gerechtigkeit war, ist nun als Feldzug der Ketzerei und Barbarei verdammt."
+ tct_neutral_struggle.1006.a: "Dies... dies ist unfassbar."
+
+ tct_neutral_struggle.1007.t: "PLACEHOLDER"
+ tct_neutral_struggle.1007.desc: "PLACEHOLDER"
+ tct_neutral_struggle.1007.a: "PLACEHOLDER."
+
+ tct_neutral_struggle.2001.t: "Die Furcht eines Buckligen"
+ tct_neutral_struggle.2001.desc: "Angst ergreift mich in jedem wachen Moment. Die Fürsten unter mir schmieden Pläne, ihre Geflüster wird mit jedem Tag lauter. Sie sehen meine Schwäche, das Fehlen eines Erben, als Gelegenheit, meine Länder aufzuteilen und mein Vermächtnis auszulöschen. Das kann ich nicht zulassen. \n\nMein [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('nephew'))], [nephew.GetFullName], ist die Antwort — ein starker, fähiger [nephew.Custom('WomanManGirlBoy')], der verteidigen kann, wozu ich nicht mehr in der Lage bin."
+ tct_neutral_struggle.2001.desc.matilda: " Doch kaum treffe ich diese Entscheidung, lehnt sich [female_party.GetFullName] dagegen auf. Wir waren jahrelang nur dem Namen nach Mann und Frau, ihr Ehrgeiz galt [GetTitleByKey('d_toscana').GetNameNoTier], nicht mir. Welches Recht hat sie, sich nun einzumischen?"
+ tct_neutral_struggle.2001.desc.wife: " Meine Gemahlin, [female_party.GetFullName], lehnt sich dagegen auf. Wir waren jahrelang nur dem Namen nach Mann und Frau, welches Recht hat sie, sich nun einzumischen?"
+ tct_neutral_struggle.2001.desc.mother: " Seine Mutter, [female_party.GetFullName], wird mir nicht grollen, wenn ich ihren [female_party.Custom2('RelationToMe', SCOPE.sC('nephew'))] ihr vorziehe."
+ tct_neutral_struggle.2001.a: "[nephew.GetFullName] soll mein Erbe sein."
+ tct_neutral_struggle.2001.a.tt: "[nephew.GetFullName] wird Euer Erbe werden"
+ tct_neutral_struggle.2001.b: "Vielleicht sollte ich es mir noch einmal überlegen..."
+ hunchback_dread_if_female_party_accepts_tt: "Falls [female_party.GetFirstNameNoTooltip] zustimmt"
+ hunchback_dread_if_female_party_rejects_tt: "Falls [female_party.GetFirstNameNoTooltip] ablehnt"
+
+ tct_neutral_struggle.2002.t: "Der Erbe eines Buckligen"
+ tct_neutral_struggle.2002.desc: "Die Nachricht von der Entscheidung meines Gemahls trifft mich wie ein Schlag ins Gesicht. [husband.GetFullName] hat seinen [husband.Custom2('RelationToMe', SCOPE.sC('nephew'))] zu seinem Erben erkoren und ignoriert dabei meinen Rat, verwirft jeglichen Anspruch auf Mitsprache über sein Vermächtnis. Unsere Ehe war seit Jahren nur noch eine leere Hülle, aber mich so vollständig auszuschließen? \n\n[nephew.GetFullName] mag fähig sein, doch hier geht es um mehr als bloße Kompetenz. Es geht um Respekt — meinen rechtmäßigen Einfluss auf die Zukunft unserer gemeinsamen Länder. Ich weigere mich, beiseite geschoben zu werden, während die Paranoia meines Gemahls alles bestimmt."
+ tct_neutral_struggle.2002.a: "Ich werde mich Gehör verschaffen..."
+ tct_neutral_struggle.2002.b: "Er soll seinen Erben haben."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# The Second Rebellion # Event for Otto of Bavaria and Heinrich IV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ tct_investiture_struggle.0051.t: "Der Investiturstreit"
+ tct_investiture_struggle.0051.desc: "Ein neuer Machtkampf erhebt sich, der die Christenheit zu zerreißen droht. Der römisch-deutsche Kaiser und der Papst stehen sich gegenüber, während die [investiture|E]-Rechte zum Schlachtfeld um die Vorherrschaft werden und die Adelshäuser sowohl Gefahr als auch Chance wittern...\n"
+
+ tct_investiture_struggle.0051.desc.emperor: "\nIch werde nicht durch die Ambitionen einer Kirche zugrunde gehen, die sich anmaßt, was rechtmäßig mir gehört. Die Fürsten murren und die Bischöfe konspirieren in der Hoffnung, mich straucheln zu sehen, doch ich bin nicht bloß ein Verwalter von Titeln — ich bin der Erwählte Gottes, durch himmlisches Recht zu herrschen bestimmt. Die Macht, das Schicksal der Christenheit zu formen, steht ihnen nicht zu. Sie ist mein, sie zu führen!"
+
+ tct_investiture_struggle.0051.desc.pope: "\nDie Fürsten flüstern von Aufruhr, der Kaiser versucht, die Macht vom Stuhl Petri selbst an sich zu reißen und die Kirche zu einem bloßen Arm des Staates zu machen. Doch ich bin nicht nur ein Bischof in einem Palast — ich bin der Stellvertreter Christi, beauftragt, Seine Herde zu hüten. Die Macht, die Christenheit zu führen, liegt in meinen Händen, und ich werde nicht weichen."
+
+ tct_investiture_struggle.0051.desc.involved: "\nDa die Autorität des Kaisers durch die geistlichen Ansprüche des Papstes in Frage gestellt wird, ist die Welt gespalten. Diejenigen, die beide Sphären, die wetliche wie die geistliche, beherrschen, werden sich in diesem Konflikt als die wahren Machthaber herausstellen."
+
+ tct_investiture_struggle.0051.desc.interloper: "\nDieser Kampf zwischen Kaiser und Papst lässt keinen Raum für Wohlbehagen. Andere sehen nur Chaos, doch wer entschlossen handelt, wird sehen, dass Chaos eine Leiter ist."
+
+ tct_investiture_struggle.0051.desc.papal_supporter: "\nDie Stimme des Papstes ist die Stimme Gottes auf Erden, und es ist unsere heilige Pflicht, sie gegen jene zu verteidigen, die ihre Autorität schmälern würden. In diesem Kampf unterstützen wir nicht bloß einen Menschen; wir wahren den göttlichen Willen. Der Kaiser versucht sich anzueignen, was heilig ist, doch wir werden sicherstellen, dass das Geistliche das Weltliche leitet."
+
+ tct_investiture_struggle.0051.desc.imperial_supporter: "\nDas Reich steht am Abgrund, und mehr denn je braucht der Kaiser standhafte Verbündete. Wir sind aufgerufen, standhaft, ein Bollwerk gegen das Chaos zu sein und sicherzustellen, dass der Kaiserthron der höchste Sitz der Macht bleibt. Die Kirche mag Einfluss haben, doch es ist der Kaiser, der führen muss."
+
+ tct_investiture_struggle.0051.desc.unrest: "$tct_investiture_struggle.0051.desc$"
+
+ tct_investiture_struggle.0051.desc.stabilization: "Nach einer Zeit der Krise erholt sich das Reich, der blutige Konflikt in Europa klingt langsam ab."
+
+ tct_investiture_struggle.0051.desc.stabilization_actor: "Spannungen durchziehen das Land, und die Luft ist schwer von Ungewissheit. Stabilität scheint eine ferne Erinnerung, doch inmitten dieser Unruhen zeichnen sich still neue Möglichkeiten ab, die auf eine neue Realität hindeuten."
+
+ tct_investiture_struggle.0051.a: "Möge [ROOT.Char.GetFaith.HighGodName] mit mir sein!"
+ tct_investiture_struggle.0051.b: "Diese törichten Ambitionen müssen ein Ende finden!"
+
+
+ less_then_20_percent_powerful_vassals_papal_supporter_tt: "Weniger als #Z 20%#! der [powerful_vassals|E] des [GetTitleByKey('e_hre').GetBaseNameNoTooltip] sind päpstliche Unterstützer. #weak Derzeit [SCOPE.ScriptValue('tct_investiture_papal_supporters_percent')]% ([SCOPE.ScriptValue('tct_papal_supporters')|0]/[SCOPE.ScriptValue('tct_total_powerful_vassals')|0])#!"
+
+ more_then_10_percent_powerful_vassals_papal_supporter_tt: "Mindestens #Z 10%#! der [powerful_vassals|E] des [GetTitleByKey('e_hre').GetBaseNameNoTooltip] sind päpstliche Unterstützer. #weak Derzeit: [SCOPE.ScriptValue('tct_investiture_papal_supporters_percent')]% ([SCOPE.ScriptValue('tct_papal_supporters')|0]/[SCOPE.ScriptValue('tct_total_powerful_vassals')|0])#!"
+
+ less_then_20_percent_powerful_vassals_imperial_supporter_tt: "Weniger als #Z 20%#! der [powerful_vassals|E] des [GetTitleByKey('e_hre').GetBaseNameNoTooltip] sind kaiserliche Unterstützer. #weak Derzeit: [SCOPE.ScriptValue('tct_investiture_imperial_supporters_percent')]% ([SCOPE.ScriptValue('tct_imperial_supporters')|0]/[SCOPE.ScriptValue('tct_total_powerful_vassals')|0])#!"
+
+ more_then_10_percent_powerful_vassals_imperial_supporter_tt: "Mindestens #Z 10%#! der [powerful_vassals|E] des [GetTitleByKey('e_hre').GetBaseNameNoTooltip] sind kaiserliche Unterstützer. #weak Derzeit: [SCOPE.ScriptValue('tct_investiture_imperial_supporters_percent')]% ([SCOPE.ScriptValue('tct_imperial_supporters')|0]/[SCOPE.ScriptValue('tct_total_powerful_vassals')|0])#!"
+
+ less_then_60_percent_faction_supporter_tt: "Derzeit: #Z [SCOPE.ScriptValue('tct_calculate_faction_control_percentage_decimal_value')]%, [SCOPE.ScriptValue('tct_calculate_faction_control_percentage')|0] von [SCOPE.ScriptValue('tct_base_struggle_region_counties')|0]."
+
+ holy_roman_empuire_has_papal_investiture_tt: "Das [GetTitleByKey('e_hre').GetBaseNameNoTooltip] hat das Gesetz [papal_investiture|E]"
+ struggle_ending_decision_correct_involvement_germany_tt:0 "Ihr seid [struggle_involved|E] am [investiture_controversy_struggle|E]."
+
+ investiture_struggle_papal_supremacy_decision_antipope_tt: "Es gibt derzeit keinen [antipope|E]."
+
+ investiture_struggle_imperial_supremacy_decision:0 "Kaiserliche Vorherrschaft"
+ investiture_struggle_imperial_supremacy_decision_desc:0 "Es ist Zeit für den Kaiser, die rechtmäßige Autorität über Krone UND Mitra zurückzufordern und die Christenheit unter einem gottgegebenen Willen zu vereinen."
+ investiture_struggle_imperial_supremacy_decision_tooltip:0 "Beendet das Investiturstreit-[struggle|E]"
+ investiture_struggle_imperial_supremacy_decision_confirm:1 "Den Investiturstreit beenden"
+ investiture_struggle_imperial_supremacy_decision_correct_phase_tt:0 "In der Feindseligkeitsphase"
+ investiture_struggle_imperial_supremacy_decision_kingdom_tt:0 "Königreich"
+ investiture_struggle_imperial_supremacy_decision_county_light_tt:0 "Platzhalter"
+ investiture_struggle_imperial_supremacy_decision_county_tt:0 "Platzhalter"
+ investiture_struggle_imperial_supremacy_decision_region_tt:0 "Platzhalter"
+
+ investiture_struggle_papal_supremacy_decision:0 "Päpstliche Vorherrschaft"
+ investiture_struggle_papal_supremacy_decision_desc:0 "Es ist Zeit für den Stellvertreter Christi, die rechtmäßige Herrschaft über die Christenheit geltend zu machen, damit das Geistliche das Weltliche zu Einheit und Erlösung führen kann."
+ investiture_struggle_papal_supremacy_decision_tooltip:0 "Beendet das Investiturstreit-[struggle|E"
+ investiture_struggle_papal_supremacy_decision_confirm:1 "Den Investiturstreit beenden"
+ investiture_struggle_papal_supremacy_decision_correct_phase_tt:0 "In der Feindseligkeitsphase"
+ investiture_struggle_papal_supremacy_decision_kingdom_tt:0 "Königreich"
+ investiture_struggle_papal_supremacy_decision_county_light_tt:0 "Platzhalter"
+ investiture_struggle_papal_supremacy_decision_county_tt:0 "Platzhalter"
+ investiture_struggle_papal_supremacy_decision_region_tt:0 "Kein anderer [struggle_involved|E]er [ruler|E] der [opposing_struggle_factions|E] kontrolliert mehr als [SCOPE.ScriptValue('tct_struggle_hostility_region_percent_value')]% von [GetGeographicalRegion('custom_investiture_struggle').GetName]"
+
+ investiture_struggle_concordat_decision: "Wormser Konkordat"
+ investiture_struggle_concordat_decision_desc: "Das Wormser Konkordat: Es ist Zeit, einen dauerhaften Frieden zwischen Kirche und Reich zu schmieden, einen Pactum Calixtinum, damit die geistliche und weltliche Sphäre in Eintracht bestehen können."
+ investiture_struggle_concordat_decision_tooltip: "Beendet das Investiturstreit-[struggle|E]"
+
+ seat_of_christendom: "Sitz der Christenheit"
+ seat_of_christendom_desc: "Nach Beilegung des Investiturstreits ist das Machtzentrum der Christenheit nun fest in Eurem [capital|E] verankert."
+
+
+
+ tct_struggle_supporter: "Konfliktparteien"
+ tct_struggle_supporter_desc: "Parteien anzeigen"
