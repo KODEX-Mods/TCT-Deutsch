@@ -7,17 +7,16 @@
  message_filter_tct_lots_of_gold_desc: "Gold, das an Bitten um Gold von Gleichgläubigen vergeben wurde"
 
  game_concept_investiture: "Investitur"
- game_concept_investiture_desc: "Investitur, #italic 'in#! #italic Vestire' #! (sich anziehen oder bekleiden) beschreibt die formelle Einsetzung, bei der einer Person die Autorität und die Insignien eines hohen Amtes verliehen werden; der Fall der Investitur eines Bischofs hat in der Kirche und in Europa zu unterschiedlichen Auffassungen geführt: Der Papst hat erklärt, dass er allein Personen in kirchliche Ämter berufen darf während der europäische Adel, von denen viele der Kirche selbst Ländereien und Territorien gestiftet hatten, die rechtlichen Befugnisse behalten wollen, die Nachfolger für diese Bischofsämter auszuwählen.\n\nEs gibt zwei Arten von Investituren: [papal_investitures|E] und [free_investitures|E].\n\nDiese entscheiden unter anderem über die Einsetzung von Bischöfen, die Entlassung und Wahl von Reichspriestern, Ehescheidungen, Exkommunikationen und andere damit verbundenen Befugnisse des [Concept('head_of_faith', 'Glaubensoberhauptes')|E]."
+ game_concept_investiture_desc: "Investitur, #italic 'in#! #italic Vestire' #! (sich anziehen oder bekleiden) beschreibt die formelle Einsetzung, bei der einer Person die Autorität und die Insignien eines hohen Amtes verliehen werden; der Fall der Investitur eines Bischofs hat in der Kirche und in Europa zu unterschiedlichen Auffassungen geführt: Der Papst hat erklärt, dass er allein Personen in kirchliche Ämter berufen darf während der europäische Adel, von denen viele der Kirche selbst Ländereien und Territorien gestiftet hatten, die rechtlichen Befugnisse behalten wollen, die Nachfolger für diese Bischofsämter auszuwählen.\n\nEs gibt zwei Arten von Investituren: [papal_investiture|E] und [free_investiture|E].\n\nDiese entscheiden unter anderem über die Einsetzung von Bischöfen, die Entlassung und Wahl von Reichspriestern, Ehescheidungen, Exkommunikationen und andere damit verbundenen Befugnisse des [Concept('head_of_faith', 'Glaubensoberhauptes')|E]."
  game_concept_free_investiture: "Freie Investitur"
- game_concept_free_investitures: "Freie Investitur"
  game_concept_free_investiture_desc: "$game_concept_free_investiture$ ist eine höhere Stufe der [investiture|E]. Bischöfe innerhalb des Reiches, einschließlich des Reichspriesters, können von ihren weltlichen Lehnsherren ernannt werden. Die ernannten Bischöfe werden ihrem Lehnsherren gegenüber loyaler sein. Der Papst und seine Gefolgsleute werden darüber nicht erfreut sein und könnten sogar versuchen, zu den Waffen zu greifen, um dies zu verhindern."
  game_concept_papal_investiture: "Päpstliche Investitur"
- game_concept_papal_investitures: "Päpstliche Investitur"
  game_concept_papal_investiture_desc: "$game_concept_papal_investiture$ ist der Standard für die Katholische [investiture|E]. Allein der Papst kann Bischöfe innerhalb jedes Reiches ernennen. Dies gibt dem weltlichen Herrscher einen Rabatt auf die Frömmigkeitskosten, wenn spezielle päpstliche Handlungen, wie Scheidung und Exkommunikation, beantragt werden."
 
+ game_concept_antipopes:0 "Gegenpäpste"
  game_concept_antipope:0 "Gegenpapst"
  game_concept_anti_pope:0 "Gegenpapst"
- game_concept_anti_pope_desc:0 "Ein $game_concept_anti_pope$ ist ein rivalisierender Anwärter auf die Rolle des [Concept('head_of_faith', 'Glaubensoberhauptes')|E] innerhalb der katholischen Kirche, der in Opposition zum regierenden Papst eingesetzt wurde. Oft von weltlichen Herrschern oder Fraktionen unterstützt, dient ein $game_concept_anti_pope$ dazu, die Autorität des offiziellen Papsttums in Frage zu stellen.\n\nGegenpäpste sind typischerweise [head_of_faith_spiritual|E] #weak (z.B. umstrittene, von Kaisern ernannte Päpste)#, aber es fehlt ihnen die universelle Anerkennung und sie führen oft zu tiefen Spaltungen innerhalb der Kirche."
+ game_concept_anti_pope_desc:0 "Ein $game_concept_anti_pope$ ist ein rivalisierender Anwärter auf die Rolle des [Concept('head_of_faith', 'Glaubensoberhauptes')|E] innerhalb der katholischen Kirche, der in Opposition zum regierenden Papst eingesetzt wurde.\n\nVon weltlichen Herrschern oder Fraktionen unterstützt, fehlte einem $game_concept_anti_pope$ die universelle Anerkennung und dies führte oft zu tiefen Spaltungen innerhalb der Kirche."
 
 
  game_concept_title_recognition: "$trinity_hre_confirmation_decision$"
@@ -94,16 +93,14 @@
  COUNCILLOR_ALREADY_CHANGED: "@warning_icon!#X Der [councillor|E] wurde bereits einmal entlassen oder ernannt.#!\nDie Investitur beeinflusst dies nicht."
 
  collegeofcardinals: "Heiliges Kardinalskollegium"
- game_concept_praedictuss_desc: "Der Praedictus ist ein Begriff, der verwendet wird, um den nächsten voraussichtlichen ernannten Kardinal aus der Gruppe der geistlichen Kandidaten zu beschreiben."
- game_concept_praedictuss: "Praedictus"
+ game_concept_praedictus_desc: "Der Praedictus ist ein Begriff, der verwendet wird, um den nächsten voraussichtlichen ernannten Kardinal aus der Gruppe der geistlichen Kandidaten zu beschreiben."
+ game_concept_praedictus: "Praedictus"
  game_concept_praedictus: "Praedictus"
  game_concept_papabile_desc: "Papabile,\"wörtlich übersetzt: papstfähig)\", ist ein Begriff zur Beschreibung eines römisch-katholischen Kardinals, der als äußerst wahrscheinlicher Kandidat für die Wahl zum Papst gilt. Im Falle des Ablebens des Heiligen Vaters wird der Papabile zum Papst. Darüber hinaus wird ein anderer Kardinal an seine Stelle treten."
- game_concept_papabiles: "Papabile"
  game_concept_papabile: "Papabile"
- game_concept_cardinals_desc: "Kardinäle werden vom Papst aus dem Klerus des Katholischen Abendlandes ernannt. Kandidaten mit größerer Frömmigkeit, höherem Alter, größerer Gelehrsamkeit, tugendhaften Charakterzügen, weltlicher Macht, guten Beziehungen zum Papst und der aktuellen Kultur Roms oder des Papstes werden bevorzugt."
+ game_concept_cardinal_desc: "Kardinäle werden vom Papst aus dem Klerus des Katholischen Abendlandes ernannt. Kandidaten mit größerer Frömmigkeit, höherem Alter, größerer Gelehrsamkeit, tugendhaften Charakterzügen, weltlicher Macht, guten Beziehungen zum Papst und der aktuellen Kultur Roms oder des Papstes werden bevorzugt."
  game_concept_cardinal: "Kardinal"
  game_concept_cardinals: "Kardinäle"
- game_concept_cardinal_desc: "Kardinal"
 
  add_pope_to_name: "Papst [ROOT.GetCharacter.GetFirstNameNoTooltip]"
 
@@ -115,21 +112,19 @@
 
  papacy_succession_law: "Kardinalswahl"
  papacy_succession_law_effects: "Nach dem Tod oder Rücktritt des Papstes tritt das Kardinalskollegium zusammen, um einen Nachfolger zu wählen. Die Gesetze des Papsttums, geleitet durch die Doktrinen des katholischen Glaubens, bestimmen den Prozess, durch den der nächste Papst gewählt wird."
- game_concept_collegeofcardinal: "Kardinalskollegium"
  game_concept_collegeofcardinals: "Kardinalskollegium"
- game_concept_collegeofcardinal_desc: "Es existiert ein Kollegium mit 21 Kardinälen. \n\nDie Kardinäle werden vom Papst aus dem Klerus des katholischen Abendlandes ernannt. Kandidaten mit größerer Frömmigkeit, höherem Alter, größerer Gelehrsamkeit, tugendhaften Eigenschaften, weltlicher Macht, guten Beziehungen zum Papst und der gegenwärtigen Kultur Roms oder des Papstes werden bevorzugt. \n\nDie Kandidaten werden unmittelbar nach dem Tod eines Kardinals oder nach der Wahl eines Kardinals zum Papst ernannt.\n\nWeltliche Herrscher können die Wahl des aussichtsreichsten Kardinalskandidaten in ihrem Reich finanziell fördern, wodurch die Wahrscheinlichkeit steigt, dass dieser Bischof zum Kardinal ernannt wird."
+ game_concept_collegeofcardinals_desc: "Es existiert ein Kollegium mit 21 Kardinälen. \n\nDie Kardinäle werden vom Papst aus dem Klerus des katholischen Abendlandes ernannt. Kandidaten mit größerer Frömmigkeit, höherem Alter, größerer Gelehrsamkeit, tugendhaften Eigenschaften, weltlicher Macht, guten Beziehungen zum Papst und der gegenwärtigen Kultur Roms oder des Papstes werden bevorzugt. \n\nDie Kandidaten werden unmittelbar nach dem Tod eines Kardinals oder nach der Wahl eines Kardinals zum Papst ernannt.\n\nWeltliche Herrscher können die Wahl des aussichtsreichsten Kardinalskandidaten in ihrem Reich finanziell fördern, wodurch die Wahrscheinlichkeit steigt, dass dieser Bischof zum Kardinal ernannt wird."
 
  knights_of_jerusalem:0 "Königliche Ritter von Jerusalem"
  feudal_government_raid:0 "Feudal"
 
 
- doctrine_parameter_TCT_clerical_appointment_investiture:0 "Ernennung zu den Ämtern „[realm_priest|E]” und „[court_chaplain|E]” werden durch die Gesetze der Investitur bestimmt."
+ doctrine_parameter_tct_clerical_appointment_investiture:0 "Ernennung zu den Ämtern „[realm_priest|E]” und „[court_chaplain|E]” werden durch die Gesetze der Investitur bestimmt."
  doctrine_clerical_succession_investiture_law_appointment_name:0 "Investitur"
  doctrine_clerical_succession_investiture_law_appointment_desc:0 "Bis der Streit um die Vormachtstellung zwischen weltlichen Herrschern und dem Heiligen Stuhl beigelegt ist, wird die Ernennung von Bischöfen von jedem Herrscher unabhängig voneinander entschieden. Die Ernennung selbst wird letztlich endgültig und absolut sein."
  investiture_is_on_cooldown:0 "Das Investiturgesetz hat sich vor nicht allzu langer Zeit geändert. Es wird nicht möglich sein, es zu ändern, bis [GetCurrentDateWithDiff(GetVarTimeRemaining(CHARACTER.MakeScope, 'investiture_cooldown'))]"
  court_chaplain_cant_reassign_investiture:0 "Euer Reich hat NICHT das [law|E] der [Concept('free_investiture', 'Freien Investitur')|E].\nOhne dieses Gesetz können [court_chaplains|E] und [realm_priests|E] nicht ernannt werden."
-
- INVESTITURE_DESC:0 "[investiture|E] ist die Autorität über die Ernennung von Bischofsnachfolgern. Alle Reiche haben standardmäßig [papal_investiture|E] und so liegt die Kompetenz beim Papst und die Nachfolge ist ungewiss, bis der aktuelle Bischof stirbt. Mit [Concept('free_investiture', 'Freier Investitur')|E] hingegen könnt Ihr den Nachfolger vorab bestimmen. Alle bischöflichen [vassals|E] der [Concept('county', 'Grafschaftsstufe')|E] und höher werden hier angezeigt"
+ INVESTITURE_DESC:0 "[investiture|E] ist die Autorität über die Ernennung von Bischofsnachfolgern. Alle Reiche haben standardmäßig [papal_investiture|E] und so liegt die Kompetenz beim Papst. Mit [Concept('free_investiture', 'Freier Investitur')|E] hingegen kann ein Herrscher den Nachfolger vorab bestimmen. Alle bischöflichen [vassals|E] der [Concept('county', 'Grafschaftsstufe')|E] und höher werden hier aufgelistet sein"
  INVESTITURE_APPOINT:0 "Nachfolger für das [GetPlayer.GetPrimaryTitle.MakeScope.Var('selected_title_for_investiture').Title.GetNameNoTooltip] ernennen."
  INVESTITURE_APPOINT_REQUIREMENTS:0 "#Bold Voraussetzungen:#! Ein Kind oder Geschwisterteil, das in keiner Erbfolge steht und entweder eine Ausbildung in Gelehrsamkeit besitzt oder ein Mönch ist, oder ein beliebiger Höfling oder Gast mit einem Bildungswert von mindestens 8."
  INVESTITURE_TITLE:0 "[Title.GetNameNoTierNoTooltip]"
@@ -140,7 +135,7 @@
  CUSTOM_FREE_INVESTITURE: "Freie Investitur"
 
  ### ANTIPOPES
- TCT_antipopes_title:0 "Gegenpapst:"
+ TCT_antipopes_title:0 "Gegenpäpste:"
  TCT_antipopes_name:0 "[Scope.GetCharacter.GetFirstNameNicknamed] #medium ([Scope.GetCharacter.GetLiege.GetPrimaryTitle.GetName]) #!"
  TCT_no_antipopes:0 "Abwesend"
  TCT_ANTIPAPCY:0 "Die [liege_culture.GetNameNoTooltip]en Gegenpapst-Staaten"

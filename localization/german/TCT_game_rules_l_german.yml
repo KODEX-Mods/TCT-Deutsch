@@ -14,3 +14,11 @@
  setting_tct_cosanguinity_on_desc: "Der katholische Glaube wird die Doktrin $doctrine_consanguinity_restricted_name$ haben, die Vetternehen verbietet."
  setting_tct_cosanguinity_off: "Vanilla"
  setting_tct_cosanguinity_off_desc: "Der katholische Glaube wird die Doktrin $doctrine_consanguinity_aunt_nephew_and_uncle_niece_name$ haben, die Vetternehen erlaubt."
+
+rule_tct_papacy_867_start: "Kirchenstaat im Jahr 867"
+setting_tct_papacy_867_start_on: "Standard"
+setting_tct_papacy_867_start_on_desc: "Der Kirchenstaat beginnt mit der Kontrolle über die Herzogtümer Latium und Romagna, die Grafschaften Ancona, Arezzo, Orbetello, Orvieto und Urbino und startet in einer [entrenched_regency|E] unter Orvieto."
+setting_tct_papacy_867_start_donation: "Pippinische Schenkung"
+setting_tct_papacy_867_start_donation_desc: "Der Kirchenstaat beginnt mit der Kontrolle über die Herzogtümer Latium und Romagna und die Grafschaften Ancona, Arezzo, Orbetello, Orvieto und Urbino."
+setting_tct_papacy_867_start_off: "Vanilla"
+setting_tct_papacy_867_start_off_desc: "Der Kirchenstaat beginnt mit der Kontrolle über das Herzogtum Latium."

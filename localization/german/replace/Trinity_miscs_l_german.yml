@@ -44,10 +44,11 @@
  EXCOMMUNICATION_99_OPINION:0 "[recipient.GetShortUIName|U] hat eine positive Meinung von über 99 von [secondary_recipient.GetShortUIName]: $VALUE|=+0$"
 
  ProclaimDictatusPapae_decision_desc: "Nach dem Niedergang des Weströmischen Reiches wurde die [investiture|E] von Mitgliedern des herrschenden Adels durchgeführt, obwohl sie theoretisch eine Aufgabe der Kirche ist. Weltliche Herrscher in der gesamten Christenheit haben Bischöfe ernannt, um sich und ihre Familie durch vetternwirtschaftliche Praktiken zu bereichern. Vielleicht ist es an der Zeit, die Könige des Abendlandes daran zu erinnern, dass die katholische Kirche vom Herrn allein gegründet wurde und dass der Papst als Nachfolger des heiligen Petrus als Einziger die Autorität hat, Männer der Kirche zu ernennen oder abzusetzen."
- ProclaimDictatusPapae_decision_tooltip: "Dies wird Eure Meinung von Herrschern mit [Concept('Free_investiture', 'Freier Investitur'|E] um 50 verringern."
+ ProclaimDictatusPapae_decision_tooltip: "Dies wird Eure Meinung von Herrschern mit [Concept('free_investiture', 'Freier Investitur'|E] um 50 verringern."
  ProclaimDictatusPapae: "Den Dictatus Papae verkünden"
  ProclaimDictatusPapae_confirm: "Verkündet den Dictatus Papae!"
-any_ruler_free_investiture:0 "Mindestens 1 katholischer Herrscher hat das Gesetz der [Concept('Free_investiture', 'Freien Investitur'|E]."
+ DictatusPapaeIncreaseCosts: "Die [prestige_i|E] Prestige- und [piety_i|E] Frömmigkeitskosten für das Gesetz der [Concept.('free_investiture', 'Freien Investitur')|E] steigen."
+ any_ruler_free_investiture:0 "Mindestens 1 katholischer Herrscher hat das Gesetz der [Concept('free_investiture', 'Freien Investitur'|E]."
 
  CardinalElectionWon: "Kardinalswahl"
  HookGainedTCT: "Ihr habt ein Druckmittel erhalten"
