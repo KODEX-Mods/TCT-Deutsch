@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_german:
 
 #  catalyst_became_supporter_fp3: "An important [character|E] took the [decision|E] to become a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
 #  catalyst_became_supporter_fp3_desc: "Important [character|E] takes the [decision|E] to become a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
@@ -6,22 +6,22 @@
 #  catalyst_became_detractor_fp3_desc: "Important [character|E] takes the [decision|E] to become a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
 
  tct_catalyst_supporter_win_unfair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
- tct_catalyst_supporter_win_unfair_war_within_the_region_desc: "Win a [war|E] started against a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] (of lower [title_tier|E]) as a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_supporter_win_unfair_war_within_the_region_desc: "Einen [war|E], gegen einen [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] (von niedrigerem [title_tier|E]) als [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] gewinnen"
 
  tct_catalyst_supporter_win_fair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
- tct_catalyst_supporter_win_fair_war_within_the_region_desc: "Win a [war|E] started against a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] (of same [title_tier|E] or higher) as a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_supporter_win_fair_war_within_the_region_desc: "Einen [war|E] gegen einen [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] (von gleichem oder höherem [title_tier|E]) als [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] gewinnen"
 
  tct_catalyst_supporter_declare_unfair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
- tct_catalyst_supporter_declare_unfair_war_within_the_region_desc: "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of lower [title_tier|E]) as a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_supporter_declare_unfair_war_within_the_region_desc: "Als [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] einen [war|E] gegen einen anderen [Concept.('[struggle_involved', 'beteiligten')|E] [ruler|E] (von niedrigerem [title_tier|E]) erklären"
 
  tct_catalyst_supporter_declare_fair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
- tct_catalyst_supporter_declare_fair_war_within_the_region_desc: "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of same [title_tier|E] or higher) as a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_supporter_declare_fair_war_within_the_region_desc: "Als [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] einen [war|E] gegen einen anderen [Concept.('[struggle_involved', 'beteiligten')|E] [ruler|E] (von gleichem oder höherem [title_tier|E]) erklären"
 
  tct_catalyst_detractor_win_unfair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
- tct_catalyst_detractor_win_unfair_war_within_the_region_desc: "Win a [war|E] started against a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] (of lower [title_tier|E]) as a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_detractor_win_unfair_war_within_the_region_desc: "Einen [war|E] gegen einen [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] (von niedrigerem [title_tier|E]) als [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] gewinnen"
 
  tct_catalyst_detractor_win_fair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
- tct_catalyst_detractor_win_fair_war_within_the_region_desc: "Win a [war|E] started against a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] (of same [title_tier|E] or higher) as a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_detractor_win_fair_war_within_the_region_desc: "Einen [war|E] gegen einen [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] (von gleichem oder höherem [title_tier|E]) als [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] gewinnen"
 
 #  catalyst_detractor_declare_unfair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
 #  catalyst_detractor_declare_unfair_war_within_the_region_desc: "Start a [war|E] against another [struggle_involved|E] [ruler|E] (of lower [title_tier|E]) as a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
@@ -74,53 +74,53 @@
 #  catalyst_execute_detractor: "Executed a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
 #  catalyst_execute_detractor_desc: "Execute a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
 
- tct_appointed_bishop_investiture: "Enacted Investiture Rights"
- tct_appointed_bishop_investiture_desc: "Appointed a bishop using free [investiture|E] rights."
- 
- tct_create_antipope_desc: "A [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] creates an [antipope|E]"
- 
+ tct_appointed_bishop_investiture: "Investiturrechte durchgesetzt"
+ tct_appointed_bishop_investiture_desc: "Einen Bischof unter Verwendung der Freien [investiture|E] ernannt."
+
+ tct_create_antipope_desc: "Ein [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] ruft einen einen [antipope|E] aus"
+
  tct_catalyst_unnatural_death_supporter: "$catalyst_unnatural_death_important_character$"
- tct_catalyst_unnatural_death_supporter_desc: "A [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] is killed" 
- 
- tct_catalyst_install_loyalist_cb_desc: "Successfully use the [tct_install_loyalist_cb|E] [casus_belli|E]"
- tct_catalyst_imprison_important_desc: "Successfully used the [tct_install_loyalist_cb|E] [casus_belli|E]"
+ tct_catalyst_unnatural_death_supporter_desc: "Ein [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] wird getötet"
 
- tct_catalyst_imprison_papal_supporter: "Imprisoned [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
- tct_catalyst_imprison_papal_supporter_desc: "Imprison a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
- 
- tct_catalyst_imprison_imperial_supporter: "Imprisoned [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]  [struggle_catalyst_catalyst|E]"
- tct_catalyst_imprison_imperial_supporter_desc: "Imprison a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
- tct_catalyst_turn_imperial_supporter_into_papal_supporter: "Changed side [struggle_catalyst_catalyst|E]"
- tct_catalyst_turn_imperial_supporter_into_papal_supporter_desc: "A [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] becomes a [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
+ tct_catalyst_install_loyalist_cb_desc: "Den [casus_belli|E] '[tct_install_loyalist_cb|E]' erfolgreich eingesetzt"
+ tct_catalyst_imprison_important_desc: "Den [casus_belli|E] '[tct_install_loyalist_cb|E]' erfolgreich eingesetzt"
 
- tct_catalyst_turn_papal_supporter_into_imperial_supporter: "Changed side [struggle_catalyst_catalyst|E]"
- tct_catalyst_turn_papal_supporter_into_imperial_supporter_desc: "A [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] becomes a [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
- 
+ tct_catalyst_imprison_papal_supporter: "Eingekerkerter [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
+ tct_catalyst_imprison_papal_supporter_desc: "Einen [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] einkerkern"
+
+ tct_catalyst_imprison_imperial_supporter: "Eingekerkerter [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]  [struggle_catalyst_catalyst|E]"
+ tct_catalyst_imprison_imperial_supporter_desc: "Einen [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] einkerkern"
+tct_catalyst_turn_imperial_supporter_into_papal_supporter: "Seitenwechsel [struggle_catalyst_catalyst|E]"
+ tct_catalyst_turn_imperial_supporter_into_papal_supporter_desc: "Ein [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )] wird [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )]"
+
+ tct_catalyst_turn_papal_supporter_into_imperial_supporter: "Seitenwechsel [struggle_catalyst_catalyst|E]"
+ tct_catalyst_turn_papal_supporter_into_imperial_supporter_desc: "Ein [GetTrait('tct_imperial_supporter').GetName( GetNullCharacter )] wird [GetTrait('tct_papal_supporter').GetName( GetNullCharacter )]"
+
  tct_catalyst_becomes_rival_supporter_detractor: "$catalyst_becomes_rival_with_involved$"
- tct_catalyst_becomes_rival_supporter_detractor_desc: "$supporter_and_detractor_caps$ become [rival|E] or [nemesis|E]"
+ tct_catalyst_becomes_rival_supporter_detractor_desc: "$supporter_and_detractor_caps$ wird [rival|E] oder [nemesis|E]"
  tct_catalyst_gain_claim_on_title: "$catalyst_gain_claim_on_title_fp2$"
- tct_catalyst_gain_claim_on_title_desc: "Acquire a [claim|E] on a [title|E] held by a $supporter_and_detractor$"
- tct_papal_hre_opinions_bad: "Papal-Imperial Relations"
- tct_papal_hre_opinions_bad_desc: "The $k_papal_state$ and the $e_hre$ are continually fallen"
- 
- tct_papal_hre_opinions_good: "Papal-Imperial Relations"
- tct_papal_hre_opinions_good_desc: "Relations between the $k_papal_state$ and the $e_hre$ have increased considsiderably"
+ tct_catalyst_gain_claim_on_title_desc: "Einen [claim|E] auf einen [title|E] erwerben, der von einem $supporter_and_detractor$ gehalten wird"
+ tct_papal_hre_opinions_bad: "Päpstlich-Kaiserliche Beziehungen"
+ tct_papal_hre_opinions_bad_desc: "Die Beziehungen zwischen dem $k_papal_state$ und dem $e_hre$ verschlechtern sich weiter"
 
- tct_catalyst_pope_or_emperor_loses_revolt_war_desc: "The [holder|E] of the [GetTitleByKey('e_hre').GetBaseName] or the [GetTitleByKey('k_papal_state').GetBaseName] loses a [civil_war|E]"
- tct_catalyst_pope_or_emperor_loses_revolt_war: "[holder|E] of the [GetTitleByKey('e_hre').GetBaseName] or the [GetTitleByKey('k_papal_state').GetBaseName] loses a [civil_war|E]" lost a [civil_war|E]"
+ tct_papal_hre_opinions_good: "Päpstlich-Kaiserliche Beziehungen"
+ tct_papal_hre_opinions_good_desc: "Die Beziehungen zwischen dem $k_papal_state$ und dem $e_hre$ haben sich deutlich verbessert"
+
+ tct_catalyst_pope_or_emperor_loses_revolt_war_desc: "Der [holder|E] des [GetTitleByKey('e_hre').GetBaseName] oder des [GetTitleByKey('k_papal_state').GetBaseName] verliert einen [civil_war|E]"
+ tct_catalyst_pope_or_emperor_loses_revolt_war: "Der [holder|E] des [GetTitleByKey('e_hre').GetBaseName] oder des [GetTitleByKey('k_papal_state').GetBaseName] verliert einen [civil_war|E]"
 
  tct_catalyst_became_friend_lover_papal_supporter_imperial_supporter: "$catalyst_became_friend_lover_with_character$"
- tct_catalyst_became_friend_lover_papal_supporter_imperial_supporter_desc: "$supporter_and_detractor_caps$ become [friends|E] or [lovers|E]"
+ tct_catalyst_became_friend_lover_papal_supporter_imperial_supporter_desc: "$supporter_and_detractor_caps$ werden [friends|E] oder [lovers|E]"
 
- tct_catalyst_prolonged_years_of_fighting: "Prolonged Regional Devastation"
- tct_catalyst_prolonged_years_of_fighting_desc: "The [struggle|E] has ravaged the region's resources and morale, stirring desires for less costly conflict."  
+tct_catalyst_prolonged_years_of_fighting: "Anhaltende regionale Verwüstung"
+tct_catalyst_prolonged_years_of_fighting_desc: "Das [struggle|E] hat die Ressourcen und Moral der Region erschöpft und weckt den Wunsch nach weniger kostspieligen Konflikten."
 
  #The [struggle|E] has exhausted the region of resources, manpower, and morale; while the "
 
 
- struggle_supporter: "Factional Supporters"
- struggle_supporter_desc: "#T $struggle_supporter$#!\nShow the $supporter_and_detractor$ of the [investiture_controversy_struggle|E]"
+ struggle_supporter: "Fraktionsanhänger"
+ struggle_supporter_desc: "#T $struggle_supporter$#!\nZeigt die $supporter_and_detractor$ des [Concept.('investiture_controversy_struggle', 'Investiturstreits')|E]"
 
- name_trait_tct_papal_supporter: "#high $trait_tct_papal_supporter$\n[ROOT.Province.GetCounty.GetTitle.GetHolder.GetName]#![AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), '\nVassal of ')][AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetName)]"
+ name_trait_tct_papal_supporter: "#high $trait_tct_papal_supporter$\n[ROOT.Province.GetCounty.GetTitle.GetHolder.GetName]#![AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), '\nVasall von ')][AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetName)]"
 
- name_trait_tct_imperial_supporter: "#high $trait_tct_imperial_supporter$\n[ROOT.Province.GetCounty.GetTitle.GetHolder.GetName]#![AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), '\nVassal of ')][AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetName)]"
+ name_trait_tct_imperial_supporter: "#high $trait_tct_imperial_supporter$\n[ROOT.Province.GetCounty.GetTitle.GetHolder.GetName]#![AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), '\nVasall von ')][AddTextIf(Not(ROOT.Province.GetCounty.GetTitle.GetHolder.IsIndependentRuler), ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetName)]"

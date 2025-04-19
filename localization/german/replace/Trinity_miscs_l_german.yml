@@ -1,19 +1,19 @@
 ﻿l_german:
 
-  I_INVESTITURE: "#l [investiture|E]"
-  I_PAPAL: "[papal_investiture|E]"
-  I_FREE: "[free_investiture|E]"
+ I_INVESTITURE: "#l [investiture|E]"
+ I_PAPAL: "[papal_investiture|E]"
+ I_FREE: "[free_investiture|E]"
 
- appoint_governor:0 "Bischofsnachfolger ernennen"
+ appoint_governor:0 "Bistumsnachfolger ernennen"
 
- public_opinion_positive: Hohe öffentliche Meinung!"
+ public_opinion_positive: "Hohes Ansehen!"
  refusedpope: "Den Papst zurückgewiesen."
 
- KOH_lots_of_gold_pope_paid:0 "[actor.GetName] bat um Gold"
- KOH_lots_of_gold_pope_paid_desc:0 "Aufgrund Eurer üppigen Goldreserven in der Päpstlichen Schatzkammer hat [actor.GetName] um Unterstützung durch den Kirchenstaat gebeten und diese auch erhalten."
+ TCT_lots_of_gold_pope_paid:0 "[actor.GetName] bat um Gold"
+ TCT_lots_of_gold_pope_paid_desc:0 "Aufgrund Eurer üppigen Goldreserven in der Päpstlichen Schatzkammer hat [RIGHT_CHARACTER.GetName] um Unterstützung durch den Kirchenstaat gebeten und diese erhalten."
 
- KOH_paid_indulgences:0 "[actor.GetName] zahlte Ablass"
- KOH_paid_indulgences_desc:0 ""Als ergebener [actor.GetFaith.GetAdherentName] versage ich zuweilen. Um dies zu sühnen, beabsichtige ich, diese Goldsumme an die Kirche zu spenden" \n\n[actor.GetName] hat einen Ablass an die Kirche gezahlt."
+ TCT_paid_indulgences:0 "[actor.GetName] zahlte Ablass"
+ TCT_paid_indulgences_desc:0 "„Als ergebener [RIGHT_CHARACTER.GetFaith.GetAdherentName] versage ich zuweilen. Um dies zu sühnen, beabsichtige ich, diese Goldsumme an die Kirche zu spenden” \n\n[RIGHT_CHARACTER.GetName] hat einen Ablass an die Kirche gezahlt."
 
  invest_in_cardinal_AI_decision_desc: "Diese Entscheidung ist für KI, um in das Kardinalskollegium zu investieren. Bitte meldet es als Fehler, wenn Ihr diese Nachricht sehen könnt."
  invest_in_cardinal_AI_decision_tooltip: "Diese Entscheidung ist für KI, um in das Kardinalskollegium zu investieren. Bitte meldet es als Fehler, wenn Ihr diese Nachricht sehen könnt."
@@ -43,63 +43,40 @@
  EXCOMMUNICATION_50_OPINION:0 "[recipient.GetShortUIName|U] hat eine positive Meinung von über 50 von [secondary_recipient.GetShortUIName]: $VALUE|=+0$"
  EXCOMMUNICATION_99_OPINION:0 "[recipient.GetShortUIName|U] hat eine positive Meinung von über 99 von [secondary_recipient.GetShortUIName]: $VALUE|=+0$"
 
- ProclaimDictatusPapae_decision_desc: "Nach dem Niedergang des Weströmischen Reiches wurde die [investiture|E] von Mitgliedern des herrschenden Adels durchgeführt, obwohl sie theoretisch eine Aufgabe der Kirche ist. Weltliche Herrscher in der gesamten Christenheit haben Bischöfe ernannt, um sich und ihre Familie durch vetternwirtschaftliche Praktiken zu bereichern. Vielleicht ist es an der Zeit, Europas Könige daran zu erinnern, dass die katholische Kirche vom Herrn allein gegründet wurde und dass der Papst als Nachfolger des heiligen Petrus allein die Autorität hat, Männer der Kirche zu ernennen oder abzusetzen."
+ ProclaimDictatusPapae_decision_desc: "Nach dem Niedergang des Weströmischen Reiches wurde die [investiture|E] von Mitgliedern des herrschenden Adels durchgeführt, obwohl sie theoretisch eine Aufgabe der Kirche ist. Weltliche Herrscher in der gesamten Christenheit haben Bischöfe ernannt, um sich und ihre Familie durch vetternwirtschaftliche Praktiken zu bereichern. Vielleicht ist es an der Zeit, die Könige des Abendlandes daran zu erinnern, dass die katholische Kirche vom Herrn allein gegründet wurde und dass der Papst als Nachfolger des heiligen Petrus als Einziger die Autorität hat, Männer der Kirche zu ernennen oder abzusetzen."
  ProclaimDictatusPapae_decision_tooltip: "Dies wird Eure Meinung von Herrschern mit [Concept('Free_investiture', 'Freier Investitur'|E] um 50 verringern."
  ProclaimDictatusPapae: "Den Dictatus Papae verkünden"
  ProclaimDictatusPapae_confirm: "Verkündet den Dictatus Papae!"
+any_ruler_free_investiture:0 "Mindestens 1 katholischer Herrscher hat das Gesetz der [Concept('Free_investiture', 'Freien Investitur'|E]."
 
- take_free_investiture_early_AI: "take_free_investiture_early_AI"
- take_free_investiture_AI: "take_free_investiture_early_AI"
- take_free_investiture_AI_decision_tooltip: "take_free_investiture_early_AI"
- take_free_investiture_AI_decision_desc: "take_free_investiture_early_AI"
- take_free_investiture_early_AI_confirm: "take_free_investiture_early_AI"
-
- take_free_investiture_late_AI_decision_desc: "take_free_investiture_late_AI"
- take_free_investiture_late_AI_decision_tooltip: "take_free_investiture_late_AI"
- take_free_investiture_late_AI: "take_free_investiture_late_AI"
- take_free_investiture_late_AI_confirm: "take_free_investiture_late_AI_AI"
-
- take_papal_investiture_early_AI_decision_desc: "take_papal_investiture_early_AI"
- take_papal_investiture_early_AI_decision_tooltip: "take_papal_investiture_early_AI"
- take_papal_investiture_early_AI: "take_papal_investiture_early_AI"
- take_papal_investiture_early_AI_confirm: "take_papal_investiture_early_AI"
-
-
- take_papal_investiture_late_AI_decision_desc: "take_papal_investiture_late_AI"
- take_papal_investiture_late_AI_decision_tooltip: "take_papal_investiture_late_AI"
- take_papal_investiture_late_AI: "take_papal_investiture_late_AI"
- take_papal_investiture_late_AI_confirm: "take_papal_investiture_late_AI"
-
- CardinalElectionWon: "Cardinal Election"
- HookGainedKOH: "You have gained a Hook"
+ CardinalElectionWon: "Kardinalswahl"
+ HookGainedTCT: "Ihr habt ein Druckmittel erhalten"
  deinvest_in_cardinal_AI_decision_effect_tooltip: "Diese Entscheidung ist für KI, um nicht mehr in das Kardinalskollegium zu investieren. Bitte meldet es als Fehler, wenn Ihr diese Nachricht sehen könnt."
 
  trait_TCT_antipope:0 "Gegenpapst"
- trait_TCT_antipope_desc:0 "Dieser Charakter ist ein Gegenpapst, ein Anwärter auf das [head_of_faith|E] des [faith|E] ."
+ trait_TCT_antipope_desc:0 "Dieser Charakter ist ein Gegenpapst, ein Anwärter auf das [head_of_faith|E] des [faith|E]."
  TCT_make_antipope_interaction_desc:0 "Als Gegenpapst ausrufen"
 
- DonationCountyClergy: "Land an den Klerus schenken"
- DonationCountyClergy: "Land an den Klerus schenken"
- DonationCountyClergy_decision_tooltip: "Ihr werdet eine Grafschaft an den Klerus schenken."
+ DonationCountyClergy: "Land an den Klerus spenden"
+ DonationCountyClergy: "Land an den Klerus spenden"
+ DonationCountyClergy_decision_tooltip: "Ihr werdet eine Grafschaft an den Klerus spenden."
  DonationCountyClergy_decision_desc: "Der Akt des Gebens, des Verschenkens, ist eine höchst pietätvolle Angelegenheit. Und viele würden meinen, dass der Klerus immer mehr Land braucht, Land, auf dem er die Menschen auf den rechten Weg des Seins führen kann. Ich könnte also etwas von meinem eigenen Land an den Klerus verschenken und würde dafür als besonders frommer Mensch gelten."
  DonationCountyClergy_confirm: "Ich muss mich entscheiden..."
 
- investiture_early_singular: "[investiture|E]"
- investiture_late_singular: "[investiture|E]"
+ investiture_law_singular: "[investiture|E]"
 
  environment_standard: "Das solltet Ihr nicht sehen."
  environment_saint: "Das solltet ihr nicht sehen - nur für Heilige!"
 
- close_tooltip: "Schließen"
- increased_fervor: "Veränderung des Eifers"
+close_tooltip: "Schließen"
+increased_fervor: "Glaubenseifer-Änderung"
 
- d_rome_patriarchate:0 "Patriarchat des Abendlandes"
- d_rome_patriarchate_adj:0 "Abendländisch"
- d_constantinople_patriarchate:0 "Patriarchat von Konstantinopel"
- d_constantinople_patriarchate_adj:0 "Patriarchal"
- d_alexandria_patriarchate:0 "Patriarchiat von Alexandrien"
- d_alexandria_patriarchate_adj:0 "Patriarchal"
- d_antioch_patriarchate:0 "Patriarchiat von Antiochien"
- d_antioch_patriarchate_adj:0 "Patriarchal"
- d_jerusalem_patriarchate:0 "Patriarchiat von Jerusalem"
- d_jerusalem_patriarchate_adj:0 "Patriarchal"
+TCT_helped_in_religious_war: "Half in Religionskrieg"
+TCT_appointed_bishop_investiture_bad: "Unrechtmäßig ernannter Bischof"
+TCT_appointed_bishop_investiture_bad_desc: "Bischof unter Verwendung 'illegaler' Investiturrechte ernannt"
+
+TCT_appointed_bishop_investiture_good: "Bischof ernannt"
+TCT_appointed_bishop_investiture_good_desc: "Bischof unter Verwendung der Investiturrechte ernannt"
+
+tct_marriage_norms_modifier: "Eheskandal"
+tct_marriage_norms_modifier_desc: "Eure umstrittenen Ehevereinbarungen haben das Reich schockiert und das Vertrauen in Eure Herrschaft untergraben."

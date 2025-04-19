@@ -1,0 +1,16 @@
+﻿l_german:
+ game_rule_category_tct: "Catholic Trinity"
+
+ rule_latin_learning: "Lateinkenntnisse für Priester"
+ setting_latin_learning_default: "Standard"
+ setting_latin_learning_default_desc: "Katholische Priester werden Latein lernen und die Hofsprache des Kirchenstaates wird Latein sein."
+ setting_latin_learning_priests: "Priester lernen Latein"
+ setting_latin_learning_priests_desc: "Katholische Priester werden Latein lernen, aber die Hofsprache des Kirchenstaates bleibt unverändert."
+ setting_latin_learning_off: "Deaktiviert"
+ setting_latin_learning_off_desc: "Katholische Priester werden kein Latein lernen und die Hofsprache des Kirchenstaates bleibt unverändert."
+
+ rule_TCT_cosanguinity: "Katholische Consanguinitas-Doktrin"
+ setting_tct_cosanguinity_on: "Standard"
+ setting_tct_cosanguinity_on_desc: "Der katholische Glaube wird die Doktrin $doctrine_consanguinity_restricted_name$ haben, die Vetternehen verbietet."
+ setting_tct_cosanguinity_off: "Vanilla"
+ setting_tct_cosanguinity_off_desc: "Der katholische Glaube wird die Doktrin $doctrine_consanguinity_aunt_nephew_and_uncle_niece_name$ haben, die Vetternehen erlaubt."

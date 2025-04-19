@@ -2,3 +2,49 @@
  nick_pope:0 "Papst"
  nick_cardinal:0 "Kardinal"
  nick_the_tolerant:0 "Der Tolerante"
+
+ #Sainthood
+ nick_the_ascetic:0 "der Asket"
+ nick_the_ascetic_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ist bekannt für [CharYourHerHis(CHARACTER)] strenge Selbstdisziplin und den Verzicht auf weltliche Freuden im Streben nach spiritueller Erleuchtung."
+
+ nick_the_merciful_saint:0 "der Barmherzige"
+ nick_the_merciful_saint_desc:1 "Wo andere urteilen, bietet [CHARACTER.GetShortUINameNoTooltipNoFormat|U] Mitgefühl; wo andere strafen, gewährt [CharYouSheHe(CHARACTER)] Gnade."
+
+ nick_the_zealous:0 "der Eiferer"
+ nick_the_zealous_desc:1 "Niemand kann die leidenschaftliche Hingabe von [CHARACTER.GetShortUINameNoTooltipNoFormat|U] zum [CHARACTER.GetFaith.GetNameNoTooltip] in Frage stellen, da [CharYouSheHe(CHARACTER)] diesen inbrünstig fördert und verteidigt."
+
+ nick_the_venerable_saint:0 "der Ehrwürdige"
+ nick_the_venerable_saint_desc:1 "Von vielen respektiert und verehrt, dient das tugendhafte Leben von [CHARACTER.GetShortUINameNoTooltipNoFormat|U] als Vorbild für alle Anhänger des [CHARACTER.GetFaith.GetNameNoTooltip]."
+
+ nick_the_bard_saint:0 "der Barde"
+ nick_the_bard_saint_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] verbindet Glauben mit Melodie und verbreitet die Lehren des [CHARACTER.GetFaith.GetNameNoTooltip] durch Sang und Dichtung."
+
+ nick_the_apostle_saint:0 "der Apostel"
+ nick_the_apostle_saint_desc:1 "Mit der Mission, das Wort des [CHARACTER.GetFaith.GetNameNoTooltip] zu verbreiten, spiegelt der bekennende Eifer von [CHARACTER.GetShortUINameNoTooltipNoFormat|U] den der ursprünglichen Apostel wider."
+
+ nick_the_virgin:0 "die Jungfrau"
+ nick_the_virgin_desc:1 "In einem Leben der Reinheit und Keuschheit widmet [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharYourHerHis(CHARACTER)]e Seele gänzlich dem [CHARACTER.GetFaith.GetNameNoTooltip]."
+
+ #nick_of_province:0 "of [saint_capital_province.GetName]"
+ #nick_of_province_desc:1 "Bound to the land of [CHARACTER.GetProvince.GetName], [CHARACTER.GetShortUINameNoTooltipNoFormat|U]'s deeds and devotion resonate through every corner of the province."
+
+ nick_the_enlightener:0 "der Erleuchter"
+ nick_the_enlightener_desc:1 "Die Lehren von [CHARACTER.GetShortUINameNoTooltipNoFormat|U] erhellen das wahre Wesen des [CHARACTER.GetFaith.GetNameNoTooltip] und führen viele aus der Dunkelheit."
+
+ nick_the_miracle_worker_saint:0 "der Wunderwirker"
+ nick_the_miracle_worker_saint_desc:1 "Durch göttliche Eingebung vollbringt [CHARACTER.GetShortUINameNoTooltipNoFormat|U] Wunder, die [CharYourHerHis(CHARACTER)]e tiefe Verbindung zu [CHARACTER.GetFaith.CreatorName] bezeugen."
+
+ nick_hammer_of_heretics:0 "der Hammer der Ketzer"
+ nick_hammer_of_heretics_desc:1 "Mit unerschütterlicher Überzeugung stellt sich [CHARACTER.GetShortUINameNoTooltipNoFormat|U] allen entgegen, die von den wahren Lehren des [CHARACTER.GetFaith.GetNameNoTooltip] abweichen."
+
+ nick_of_the_desert:0 "der Wüstenvater"
+ nick_of_the_desert_desc:1 "In der Weite der Wüste findet [CHARACTER.GetShortUINameNoTooltipNoFormat|U] Trost und Gemeinschaft mit [CHARACTER.GetFaith.CreatorName] und lebt ein Leben voller tiefer Kontemplation."
+
+ nick_the_flagellant:0 "der Geißler"
+ nick_of_the_desert_desc:1 "Getrieben von einem unbeugsamen Verlangen nach Buße und spiritueller Reinigung, nimmt [CHARACTER.GetShortUINameNoTooltipNoFormat|U] selbst auferlegtes Leid auf sich und sucht durch körperliche Sühne die Nähe zu [CHARACTER.GetFaith.CreatorName]."
+
+ nick_the_defender_of_the_faith:0 "der Verteidiger des Glaubens"
+ nick_the_defender_of_the_faith_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] gilt weithin als der bedeutendste Verteidiger der Gläubigen gegen Heiden, Ungläubige und Götzendiener."
+
+ nick_the_holy_sovereign:0 "der Heilige Souverän"
+ nick_the_holy_sovereign_desc:1 "Durch Gottes Willen steht [CHARACTER.GetShortUINameNoTooltipNoFormat|U] als weltlicher Herrscher der Christenheit, ausgestattet mit der göttlichen Macht, das Schicksal aller Seelen zu formen."

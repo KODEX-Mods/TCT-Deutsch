@@ -1,20 +1,20 @@
-﻿l_english: 
-  k_papal_state_article:0 "the "
-  k_papal_state:0 "Papal States" 
+﻿l_german:
+  k_papal_state_article:0 "Der"
+  k_papal_state:0 "Kirchenstaat"
 
-  d_captain_general_church_article:0 ""
-  d_captain_general_church:0 "the Papal Army"
+  d_captain_general_church_article:0 "die "
+  d_captain_general_church:0 "Päpstliche Streitmacht"
 
 
-  d_rome_patriarchate:0 "Roman Patriarchy"
-  d_rome_patriarchate_adj:0 "Roman"
-  k_orthodox:0 "Constantinopolitan Patriarchy"
+  d_rome_patriarchate:0 "Patriarchat des Abendlandes"
+  d_rome_patriarchate_adj:0 "Abendländisch"
+  k_orthodox:0 "Patriarchat von Konstantinopel"
   k_orthodox_adj:0 "Patriarchal"
-  d_alexandria_patriarchate:0 "Alexandrian Patriarchy"
+  d_alexandria_patriarchate:0 "Patriarchiat von Alexandrien"
   d_alexandria_patriarchate_adj:0 "Patriarchal"
-  d_antioch_patriarchate:0 "Antiochian Patriarchy"
+  d_antioch_patriarchate:0 "Patriarchiat von Antiochien"
   d_antioch_patriarchate_adj:0 "Patriarchal"
-  d_jerusalem_patriarchate:0 "Jerusalemite Patriarchy"
+  d_jerusalem_patriarchate:0 "Patriarchiat von Jerusalem"
   d_jerusalem_patriarchate_adj:0 "Patriarchal"
 
   d_archbishop_auch: "Auch"
