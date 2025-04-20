@@ -1,8 +1,8 @@
 ﻿l_german:
-  k_papal_state_article:0 "Der"
+  k_papal_state_article:0 "Der "
   k_papal_state:0 "Kirchenstaat"
 
-  d_captain_general_church_article:0 "die "
+  d_captain_general_church_article:0 "Die "
   d_captain_general_church:0 "Päpstliche Streitmacht"
 
 
