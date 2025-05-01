@@ -197,13 +197,13 @@ window = {
 							}
 							button_sidepanel_right = {
 								name = "saints_information"
-								raw_tooltip = "Heilige ansehen"
+								raw_tooltip = "View Saints"
 								onclick = "[GetVariableSystem.Toggle('window_sainthood')]"
 								using = tooltip_nw
 
 								blockoverride "button_text"
 								{
-									raw_text = "Heilige ansehen"
+									raw_text = "View Saints"
 								}
 							}
 						}
@@ -371,7 +371,7 @@ window = {
 				onclick = "[SetMapMode( 'TCT_investiture' )]"
 				onclick = "[GetScriptedGui('get_all_realm_theocracies').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 				down = "[GetVariableSystem.HasValue( 'faith_view_tabs', 'investiture' )]"
-				raw_text = "Investitur" # Should typically call a loc key but you can put the text right in if you are lazy
+				raw_text = "Investiture" # Should typically call a loc key but you can put the text right in if you are lazy
 				default_format = "#low"
 
 				using = tooltip_below
@@ -1529,7 +1529,7 @@ window = {
 										text_single = {
 											name = "faith_name"
 											align = left|nobaseline
-											text = "FAITH_TOOLTIP_GETNAME"
+											text = "FAITH_COOLTIP_GETNAME"
 											using = Font_Size_Medium
 											default_format = "#high"
 											max_width = 240

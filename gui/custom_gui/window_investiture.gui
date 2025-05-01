@@ -204,7 +204,7 @@
                                                     minimumsize = { 100 -1 }
                                                     hbox = {
                                                         text_single = {
-                                                            raw_text = "Diplomatiey:  "
+                                                            raw_text = "Diplomatie:  "
                                                         }
                                                         text_single = {
                                                             raw_text = "[Character.MakeScope.ScriptValue('diplomacy_theocrat')|0]" # For some fucked up reason we can't call up any of a person's stats so I have to manually do it via a script value
