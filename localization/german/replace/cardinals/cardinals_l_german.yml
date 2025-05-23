@@ -25,7 +25,7 @@
  # Pope score breakdown
  cardinals_score_papal: "@icon_popinion!Päpstliche Wertung:"
  cardinals_score_cardinal: "@icon_popinion!Kardinalswertung:"
- cardinals_score_popinion: "Papstmeinung:"
+ cardinals_score_popinion: "Meinung des Papstes:"
  cardinals_score_culture: "[culture|E]:"
  cardinal_piety_bonus: "[piety_i][piety|E] ([Character.GetPiety|+0])"
  cardinal_prestige_bonus: "[prestige_i][prestige|E] ([Character.GetPrestige|+0])"
